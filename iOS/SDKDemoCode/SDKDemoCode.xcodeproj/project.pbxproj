@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20218AC2198136F0001FB487 /* Activity.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A7F198136EF001FB487 /* Activity.nib */; };
+		20218AC3198136F0001FB487 /* DynamicHeightTextCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */; };
+		20218AC4198136F0001FB487 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218A81198136EF001FB487 /* FBDialog.bundle */; };
+		20218AC5198136F0001FB487 /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218A82198136EF001FB487 /* REComposeViewController.bundle */; };
+		20218AC6198136F0001FB487 /* SAAudioResponseCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A83198136EF001FB487 /* SAAudioResponseCell.nib */; };
+		20218AC7198136F0001FB487 /* SABarCodeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */; };
+		20218AC8198136F0001FB487 /* SAContainerViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A85198136EF001FB487 /* SAContainerViewController.nib */; };
+		20218AC9198136F0001FB487 /* SADateTimeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */; };
+		20218ACA198136F0001FB487 /* SADisChoiceCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */; };
+		20218ACB198136F0001FB487 /* SADlCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A88198136EF001FB487 /* SADlCell_iPhone.nib */; };
+		20218ACC198136F0001FB487 /* SAFreeformTextCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */; };
+		20218ACD198136F0001FB487 /* SALabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */; };
+		20218ACE198136F0001FB487 /* SAMaxDiffCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */; };
+		20218ACF198136F0001FB487 /* SANpsCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */; };
+		20218AD0198136F0001FB487 /* SAOfflineService.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8D198136EF001FB487 /* SAOfflineService.nib */; };
+		20218AD1198136F0001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */; };
+		20218AD2198136F0001FB487 /* SARankImgLabelCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */; };
+		20218AD3198136F0001FB487 /* SARankLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */; };
+		20218AD4198136F0001FB487 /* SARatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */; };
+		20218AD5198136F0001FB487 /* SASectionBarCode_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */; };
+		20218AD6198136F0001FB487 /* SASectionCheckBoxes_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */; };
+		20218AD7198136F0001FB487 /* SASectionChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */; };
+		20218AD8198136F0001FB487 /* SASectionChoicesViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */; };
+		20218AD9198136F0001FB487 /* SASectionChoiceViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */; };
+		20218ADA198136F0001FB487 /* SASectionConjointMaxDiff_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */; };
+		20218ADB198136F0001FB487 /* SASectionContactInfoViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */; };
+		20218ADC198136F0001FB487 /* SASectionDateTime_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */; };
+		20218ADD198136F0001FB487 /* SASectionDiscreteChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */; };
+		20218ADE198136F0001FB487 /* SASectionDLController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */; };
+		20218ADF198136F0001FB487 /* SASectionFreeformTextViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */; };
+		20218AE0198136F0001FB487 /* SASectionICChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */; };
+		20218AE1198136F0001FB487 /* SASectionICChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */; };
+		20218AE2198136F0001FB487 /* SASectionICChoices_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */; };
+		20218AE3198136F0001FB487 /* SASectionImageRankingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */; };
+		20218AE4198136F0001FB487 /* SASectionImageRatingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */; };
+		20218AE5198136F0001FB487 /* SASectionImgRatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */; };
+		20218AE6198136F0001FB487 /* SASectionInfo_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */; };
+		20218AE7198136F0001FB487 /* SASectionMicroPanel_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */; };
+		20218AE8198136F0001FB487 /* SASectionNPS_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */; };
+		20218AE9198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */; };
+		20218AEA198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */; };
+		20218AEB198136F0001FB487 /* SASectionRadio_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */; };
+		20218AEC198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */; };
+		20218AED198136F0001FB487 /* SASectionRankViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */; };
+		20218AEE198136F0001FB487 /* SASectionRecordAudio_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */; };
+		20218AEF198136F0001FB487 /* SASectionSignature_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */; };
+		20218AF0198136F0001FB487 /* SASectionSliderViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */; };
+		20218AF1198136F0001FB487 /* SASectionSmileyYN_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */; };
+		20218AF2198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */; };
+		20218AF3198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */; };
+		20218AF4198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */; };
+		20218AF5198136F0001FB487 /* SASectionUnsupported_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */; };
+		20218AF6198136F0001FB487 /* SASingleSurveyViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */; };
+		20218AF7198136F0001FB487 /* SASliderCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */; };
+		20218AF8198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */; };
+		20218AF9198136F0001FB487 /* SAStarRating_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */; };
+		20218AFA198136F0001FB487 /* SAStopWatch_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */; };
+		20218AFB198136F0001FB487 /* SAStopWatchCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */; };
+		20218AFC198136F0001FB487 /* SASurveyListViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB9198136F0001FB487 /* SASurveyListViewController.nib */; };
+		20218AFD198136F0001FB487 /* SASurveyViewController_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */; };
+		20218AFE198136F0001FB487 /* SAUICatalog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABB198136F0001FB487 /* SAUICatalog.bundle */; };
+		20218AFF198136F0001FB487 /* SignatureCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */; };
+		20218B00198136F0001FB487 /* SmileyRatingCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */; };
+		20218B01198136F0001FB487 /* SmileyYNCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */; };
+		20218B02198136F0001FB487 /* SurveyAnalyticsDB.mom in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */; };
+		20218B03198136F0001FB487 /* Toolbar.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AC0198136F0001FB487 /* Toolbar.nib */; };
+		20218B04198136F0001FB487 /* SAUICatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20218AC1198136F0001FB487 /* SAUICatalog.framework */; };
+		2021A9331901101E00E716E5 /* SingleSurveyDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2021A9311901101E00E716E5 /* SingleSurveyDisplay.m */; };
+		20231FC418FE933C0060BF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC318FE933C0060BF2A /* Foundation.framework */; };
+		20231FC618FE933C0060BF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC518FE933C0060BF2A /* CoreGraphics.framework */; };
+		20231FC818FE933C0060BF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC718FE933C0060BF2A /* UIKit.framework */; };
+		20231FCE18FE933C0060BF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20231FCC18FE933C0060BF2A /* InfoPlist.strings */; };
+		20231FD018FE933C0060BF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20231FCF18FE933C0060BF2A /* main.m */; };
+		20231FD418FE933C0060BF2A /* SDKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20231FD318FE933C0060BF2A /* SDKAppDelegate.m */; };
+		20231FDA18FE933C0060BF2A /* SDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20231FD918FE933C0060BF2A /* SDKViewController.m */; };
+		20231FDC18FE933C0060BF2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20231FDB18FE933C0060BF2A /* Images.xcassets */; };
+		20231FE318FE933C0060BF2A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FE218FE933C0060BF2A /* XCTest.framework */; };
+		20231FE418FE933C0060BF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC318FE933C0060BF2A /* Foundation.framework */; };
+		20231FE518FE933C0060BF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC718FE933C0060BF2A /* UIKit.framework */; };
+		20231FED18FE933C0060BF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20231FEB18FE933C0060BF2A /* InfoPlist.strings */; };
+		20231FEF18FE933C0060BF2A /* SDKDemoCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20231FEE18FE933C0060BF2A /* SDKDemoCodeTests.m */; };
+		2023208518FE9AB10060BF2A /* SurveyListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2023208318FE9AB10060BF2A /* SurveyListDisplay.m */; };
+		2023208818FE9BAB0060BF2A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023208718FE9BAB0060BF2A /* MapKit.framework */; };
+		2023208A18FE9BB30060BF2A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023208918FE9BB30060BF2A /* AVFoundation.framework */; };
+		2023208C18FE9BC00060BF2A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023208B18FE9BC00060BF2A /* CoreText.framework */; };
+		2023208E18FE9BCB0060BF2A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023208D18FE9BCB0060BF2A /* CoreMedia.framework */; };
+		2023209018FE9BD70060BF2A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023208F18FE9BD70060BF2A /* CoreLocation.framework */; };
+		2023209218FE9BFB0060BF2A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209118FE9BFB0060BF2A /* CoreVideo.framework */; };
+		2023209418FE9C050060BF2A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209318FE9C050060BF2A /* AudioToolbox.framework */; };
+		2023209618FE9C0F0060BF2A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209518FE9C0F0060BF2A /* CoreData.framework */; };
+		2023209818FE9C180060BF2A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209718FE9C180060BF2A /* MobileCoreServices.framework */; };
+		2023209A18FE9C220060BF2A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209918FE9C220060BF2A /* MediaPlayer.framework */; };
+		2023209C18FE9C2E0060BF2A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209B18FE9C2E0060BF2A /* SystemConfiguration.framework */; };
+		2023209E18FE9C3B0060BF2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209D18FE9C3B0060BF2A /* QuartzCore.framework */; };
+		202320A018FE9C460060BF2A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023209F18FE9C460060BF2A /* OpenGLES.framework */; };
+		202320A218FE9C5E0060BF2A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 202320A118FE9C5E0060BF2A /* libiconv.dylib */; };
+		202320A418FE9C700060BF2A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 202320A318FE9C700060BF2A /* libicucore.dylib */; };
+		202320A618FE9C7E0060BF2A /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 202320A518FE9C7E0060BF2A /* libstdc++.dylib */; };
+		202320A818FE9C880060BF2A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202320A718FE9C880060BF2A /* CFNetwork.framework */; };
+		20327FD61907BC5C00CE928B /* SingleSurveyDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FD81907BC5C00CE928B /* SingleSurveyDisplay.xib */; };
+		20327FD91907BC6E00CE928B /* SDKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FDB1907BC6E00CE928B /* SDKViewController.xib */; };
+		20327FDC1907BC7D00CE928B /* SurveyListDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FDE1907BC7D00CE928B /* SurveyListDisplay.xib */; };
+		20F958F81920A3B700C9AC7C /* NavigationTopNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F958F71920A3B700C9AC7C /* NavigationTopNew.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20231FE618FE933C0060BF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20231FB818FE933C0060BF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20231FBF18FE933C0060BF2A;
+			remoteInfo = SDKDemoCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20218A7F198136EF001FB487 /* Activity.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Activity.nib; sourceTree = "<group>"; };
+		20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DynamicHeightTextCell.nib; sourceTree = "<group>"; };
+		20218A81198136EF001FB487 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		20218A82198136EF001FB487 /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
+		20218A83198136EF001FB487 /* SAAudioResponseCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAAudioResponseCell.nib; sourceTree = "<group>"; };
+		20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SABarCodeCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A85198136EF001FB487 /* SAContainerViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAContainerViewController.nib; sourceTree = "<group>"; };
+		20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADateTimeCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADisChoiceCell_iPh.nib; sourceTree = "<group>"; };
+		20218A88198136EF001FB487 /* SADlCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADlCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAFreeformTextCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SALabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAMaxDiffCell_iPh.nib; sourceTree = "<group>"; };
+		20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SANpsCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A8D198136EF001FB487 /* SAOfflineService.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAOfflineService.nib; sourceTree = "<group>"; };
+		20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankChecksumLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankImgLabelCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARatingCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionBarCode_iPhone.nib; sourceTree = "<group>"; };
+		20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionCheckBoxes_iPhone.nib; sourceTree = "<group>"; };
+		20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoicesViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionConjointMaxDiff_iPhone.nib; sourceTree = "<group>"; };
+		20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionContactInfoViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDateTime_iPhone.nib; sourceTree = "<group>"; };
+		20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDiscreteChoice_iPhone.nib; sourceTree = "<group>"; };
+		20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDLController_iPhone.nib; sourceTree = "<group>"; };
+		20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionFreeformTextViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoice_iPhone.nib; sourceTree = "<group>"; };
+		20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoiceCell_iPhone.nib; sourceTree = "<group>"; };
+		20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoices_iPhone.nib; sourceTree = "<group>"; };
+		20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRankingViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRatingViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImgRatingCell_iPhone.nib; sourceTree = "<group>"; };
+		20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionInfo_iPhone.nib; sourceTree = "<group>"; };
+		20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionMicroPanel_iPhone.nib; sourceTree = "<group>"; };
+		20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionNPS_iPhone.nib; sourceTree = "<group>"; };
+		20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionPhotoVideoCapture_iPhone.nib; sourceTree = "<group>"; };
+		20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SaSectionPhotoVideoCell_iPhone.nib; sourceTree = "<group>"; };
+		20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRadio_iPhone.nib; sourceTree = "<group>"; };
+		20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankChecksumViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRecordAudio_iPh.nib; sourceTree = "<group>"; };
+		20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSignature_iPhone.nib; sourceTree = "<group>"; };
+		20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSliderViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSmileyYN_iPhone.nib; sourceTree = "<group>"; };
+		20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSpreadSheet_iPhone.nib; sourceTree = "<group>"; };
+		20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownCell_iPhone.nib; sourceTree = "<group>"; };
+		20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownViewController_iPhone.nib; sourceTree = "<group>"; };
+		20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionUnsupported_iPhone.nib; sourceTree = "<group>"; };
+		20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASingleSurveyViewController.nib; sourceTree = "<group>"; };
+		20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCell_iPhone.nib; sourceTree = "<group>"; };
+		20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCheckBoxCell_iPh.nib; sourceTree = "<group>"; };
+		20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStarRating_iPhone.nib; sourceTree = "<group>"; };
+		20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatch_iPhone.nib; sourceTree = "<group>"; };
+		20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatchCell_iPhone.nib; sourceTree = "<group>"; };
+		20218AB9198136F0001FB487 /* SASurveyListViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyListViewController.nib; sourceTree = "<group>"; };
+		20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyViewController_iPh.nib; sourceTree = "<group>"; };
+		20218ABB198136F0001FB487 /* SAUICatalog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAUICatalog.bundle; sourceTree = "<group>"; };
+		20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SignatureCell_iPhone.nib; sourceTree = "<group>"; };
+		20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyRatingCell_iPh.nib; sourceTree = "<group>"; };
+		20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyYNCell_iPh.nib; sourceTree = "<group>"; };
+		20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SurveyAnalyticsDB.mom; sourceTree = "<group>"; };
+		20218AC0198136F0001FB487 /* Toolbar.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Toolbar.nib; sourceTree = "<group>"; };
+		20218AC1198136F0001FB487 /* SAUICatalog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAUICatalog.framework; sourceTree = "<group>"; };
+		2021A9301901101E00E716E5 /* SingleSurveyDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSurveyDisplay.h; sourceTree = "<group>"; };
+		2021A9311901101E00E716E5 /* SingleSurveyDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSurveyDisplay.m; sourceTree = "<group>"; };
+		20231FC018FE933C0060BF2A /* SDKDemoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20231FC318FE933C0060BF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20231FC518FE933C0060BF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20231FC718FE933C0060BF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20231FCB18FE933C0060BF2A /* SDKDemoCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDKDemoCode-Info.plist"; sourceTree = "<group>"; };
+		20231FCD18FE933C0060BF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20231FCF18FE933C0060BF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20231FD118FE933C0060BF2A /* SDKDemoCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDKDemoCode-Prefix.pch"; sourceTree = "<group>"; };
+		20231FD218FE933C0060BF2A /* SDKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKAppDelegate.h; sourceTree = "<group>"; };
+		20231FD318FE933C0060BF2A /* SDKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKAppDelegate.m; sourceTree = "<group>"; };
+		20231FD818FE933C0060BF2A /* SDKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKViewController.h; sourceTree = "<group>"; };
+		20231FD918FE933C0060BF2A /* SDKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKViewController.m; sourceTree = "<group>"; };
+		20231FDB18FE933C0060BF2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20231FE118FE933C0060BF2A /* SDKDemoCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKDemoCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20231FE218FE933C0060BF2A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20231FEA18FE933C0060BF2A /* SDKDemoCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDKDemoCodeTests-Info.plist"; sourceTree = "<group>"; };
+		20231FEC18FE933C0060BF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20231FEE18FE933C0060BF2A /* SDKDemoCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKDemoCodeTests.m; sourceTree = "<group>"; };
+		2023208218FE9AB10060BF2A /* SurveyListDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyListDisplay.h; sourceTree = "<group>"; };
+		2023208318FE9AB10060BF2A /* SurveyListDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyListDisplay.m; sourceTree = "<group>"; };
+		2023208718FE9BAB0060BF2A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2023208918FE9BB30060BF2A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2023208B18FE9BC00060BF2A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2023208D18FE9BCB0060BF2A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2023208F18FE9BD70060BF2A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2023209118FE9BFB0060BF2A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2023209318FE9C050060BF2A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2023209518FE9C0F0060BF2A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2023209718FE9C180060BF2A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2023209918FE9C220060BF2A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2023209B18FE9C2E0060BF2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2023209D18FE9C3B0060BF2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2023209F18FE9C460060BF2A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		202320A118FE9C5E0060BF2A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		202320A318FE9C700060BF2A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		202320A518FE9C7E0060BF2A /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		202320A718FE9C880060BF2A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		20327FD71907BC5C00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SingleSurveyDisplay.xib; sourceTree = "<group>"; };
+		20327FDA1907BC6E00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDKViewController.xib; sourceTree = "<group>"; };
+		20327FDD1907BC7D00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SurveyListDisplay.xib; sourceTree = "<group>"; };
+		20F958F71920A3B700C9AC7C /* NavigationTopNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationTopNew.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20231FBD18FE933C0060BF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2023209618FE9C0F0060BF2A /* CoreData.framework in Frameworks */,
+				202320A818FE9C880060BF2A /* CFNetwork.framework in Frameworks */,
+				202320A618FE9C7E0060BF2A /* libstdc++.dylib in Frameworks */,
+				202320A418FE9C700060BF2A /* libicucore.dylib in Frameworks */,
+				202320A218FE9C5E0060BF2A /* libiconv.dylib in Frameworks */,
+				202320A018FE9C460060BF2A /* OpenGLES.framework in Frameworks */,
+				2023209E18FE9C3B0060BF2A /* QuartzCore.framework in Frameworks */,
+				2023209C18FE9C2E0060BF2A /* SystemConfiguration.framework in Frameworks */,
+				2023209A18FE9C220060BF2A /* MediaPlayer.framework in Frameworks */,
+				2023209818FE9C180060BF2A /* MobileCoreServices.framework in Frameworks */,
+				20218B04198136F0001FB487 /* SAUICatalog.framework in Frameworks */,
+				2023209418FE9C050060BF2A /* AudioToolbox.framework in Frameworks */,
+				2023209218FE9BFB0060BF2A /* CoreVideo.framework in Frameworks */,
+				2023209018FE9BD70060BF2A /* CoreLocation.framework in Frameworks */,
+				2023208E18FE9BCB0060BF2A /* CoreMedia.framework in Frameworks */,
+				2023208C18FE9BC00060BF2A /* CoreText.framework in Frameworks */,
+				2023208A18FE9BB30060BF2A /* AVFoundation.framework in Frameworks */,
+				2023208818FE9BAB0060BF2A /* MapKit.framework in Frameworks */,
+				20231FC618FE933C0060BF2A /* CoreGraphics.framework in Frameworks */,
+				20231FC818FE933C0060BF2A /* UIKit.framework in Frameworks */,
+				20231FC418FE933C0060BF2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20231FDE18FE933C0060BF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20231FE318FE933C0060BF2A /* XCTest.framework in Frameworks */,
+				20231FE518FE933C0060BF2A /* UIKit.framework in Frameworks */,
+				20231FE418FE933C0060BF2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20218A7D198136EF001FB487 /* SAUICatalog.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				20218A7E198136EF001FB487 /* Resources */,
+				20218AC1198136F0001FB487 /* SAUICatalog.framework */,
+			);
+			path = SAUICatalog.embeddedframework;
+			sourceTree = "<group>";
+		};
+		20218A7E198136EF001FB487 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20218A7F198136EF001FB487 /* Activity.nib */,
+				20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */,
+				20218A81198136EF001FB487 /* FBDialog.bundle */,
+				20218A82198136EF001FB487 /* REComposeViewController.bundle */,
+				20218A83198136EF001FB487 /* SAAudioResponseCell.nib */,
+				20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */,
+				20218A85198136EF001FB487 /* SAContainerViewController.nib */,
+				20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */,
+				20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */,
+				20218A88198136EF001FB487 /* SADlCell_iPhone.nib */,
+				20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */,
+				20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */,
+				20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */,
+				20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */,
+				20218A8D198136EF001FB487 /* SAOfflineService.nib */,
+				20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */,
+				20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */,
+				20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */,
+				20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */,
+				20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */,
+				20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */,
+				20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */,
+				20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */,
+				20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */,
+				20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */,
+				20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */,
+				20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */,
+				20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */,
+				20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */,
+				20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */,
+				20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */,
+				20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */,
+				20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */,
+				20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */,
+				20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */,
+				20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */,
+				20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */,
+				20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */,
+				20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */,
+				20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */,
+				20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */,
+				20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */,
+				20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */,
+				20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */,
+				20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */,
+				20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */,
+				20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */,
+				20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */,
+				20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */,
+				20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */,
+				20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */,
+				20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */,
+				20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */,
+				20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */,
+				20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */,
+				20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */,
+				20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */,
+				20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */,
+				20218AB9198136F0001FB487 /* SASurveyListViewController.nib */,
+				20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */,
+				20218ABB198136F0001FB487 /* SAUICatalog.bundle */,
+				20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */,
+				20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */,
+				20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */,
+				20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */,
+				20218AC0198136F0001FB487 /* Toolbar.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20231FB718FE933C0060BF2A = {
+			isa = PBXGroup;
+			children = (
+				20231FC918FE933C0060BF2A /* SDKDemoCode */,
+				20231FE818FE933C0060BF2A /* SDKDemoCodeTests */,
+				20231FC218FE933C0060BF2A /* Frameworks */,
+				20231FC118FE933C0060BF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20231FC118FE933C0060BF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20231FC018FE933C0060BF2A /* SDKDemoCode.app */,
+				20231FE118FE933C0060BF2A /* SDKDemoCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20231FC218FE933C0060BF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20218A7D198136EF001FB487 /* SAUICatalog.embeddedframework */,
+				202320A718FE9C880060BF2A /* CFNetwork.framework */,
+				202320A518FE9C7E0060BF2A /* libstdc++.dylib */,
+				202320A318FE9C700060BF2A /* libicucore.dylib */,
+				202320A118FE9C5E0060BF2A /* libiconv.dylib */,
+				2023209F18FE9C460060BF2A /* OpenGLES.framework */,
+				2023209D18FE9C3B0060BF2A /* QuartzCore.framework */,
+				2023209B18FE9C2E0060BF2A /* SystemConfiguration.framework */,
+				2023209918FE9C220060BF2A /* MediaPlayer.framework */,
+				2023209718FE9C180060BF2A /* MobileCoreServices.framework */,
+				2023209518FE9C0F0060BF2A /* CoreData.framework */,
+				2023209318FE9C050060BF2A /* AudioToolbox.framework */,
+				2023209118FE9BFB0060BF2A /* CoreVideo.framework */,
+				2023208F18FE9BD70060BF2A /* CoreLocation.framework */,
+				2023208D18FE9BCB0060BF2A /* CoreMedia.framework */,
+				2023208B18FE9BC00060BF2A /* CoreText.framework */,
+				2023208918FE9BB30060BF2A /* AVFoundation.framework */,
+				2023208718FE9BAB0060BF2A /* MapKit.framework */,
+				20231FC318FE933C0060BF2A /* Foundation.framework */,
+				20231FC518FE933C0060BF2A /* CoreGraphics.framework */,
+				20231FC718FE933C0060BF2A /* UIKit.framework */,
+				20231FE218FE933C0060BF2A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20231FC918FE933C0060BF2A /* SDKDemoCode */ = {
+			isa = PBXGroup;
+			children = (
+				20F958F61920A39E00C9AC7C /* images */,
+				20231FD218FE933C0060BF2A /* SDKAppDelegate.h */,
+				20231FD318FE933C0060BF2A /* SDKAppDelegate.m */,
+				20231FD818FE933C0060BF2A /* SDKViewController.h */,
+				20231FD918FE933C0060BF2A /* SDKViewController.m */,
+				20327FDB1907BC6E00CE928B /* SDKViewController.xib */,
+				2021A9301901101E00E716E5 /* SingleSurveyDisplay.h */,
+				2021A9311901101E00E716E5 /* SingleSurveyDisplay.m */,
+				20327FD81907BC5C00CE928B /* SingleSurveyDisplay.xib */,
+				2023208218FE9AB10060BF2A /* SurveyListDisplay.h */,
+				2023208318FE9AB10060BF2A /* SurveyListDisplay.m */,
+				20327FDE1907BC7D00CE928B /* SurveyListDisplay.xib */,
+				20231FDB18FE933C0060BF2A /* Images.xcassets */,
+				20231FCA18FE933C0060BF2A /* Supporting Files */,
+			);
+			path = SDKDemoCode;
+			sourceTree = "<group>";
+		};
+		20231FCA18FE933C0060BF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20231FCB18FE933C0060BF2A /* SDKDemoCode-Info.plist */,
+				20231FCC18FE933C0060BF2A /* InfoPlist.strings */,
+				20231FCF18FE933C0060BF2A /* main.m */,
+				20231FD118FE933C0060BF2A /* SDKDemoCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20231FE818FE933C0060BF2A /* SDKDemoCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				20231FEE18FE933C0060BF2A /* SDKDemoCodeTests.m */,
+				20231FE918FE933C0060BF2A /* Supporting Files */,
+			);
+			path = SDKDemoCodeTests;
+			sourceTree = "<group>";
+		};
+		20231FE918FE933C0060BF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20231FEA18FE933C0060BF2A /* SDKDemoCodeTests-Info.plist */,
+				20231FEB18FE933C0060BF2A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20F958F61920A39E00C9AC7C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				20F958F71920A3B700C9AC7C /* NavigationTopNew.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20231FBF18FE933C0060BF2A /* SDKDemoCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20231FF218FE933C0060BF2A /* Build configuration list for PBXNativeTarget "SDKDemoCode" */;
+			buildPhases = (
+				20231FBC18FE933C0060BF2A /* Sources */,
+				20231FBD18FE933C0060BF2A /* Frameworks */,
+				20231FBE18FE933C0060BF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKDemoCode;
+			productName = SDKDemoCode;
+			productReference = 20231FC018FE933C0060BF2A /* SDKDemoCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20231FE018FE933C0060BF2A /* SDKDemoCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20231FF518FE933C0060BF2A /* Build configuration list for PBXNativeTarget "SDKDemoCodeTests" */;
+			buildPhases = (
+				20231FDD18FE933C0060BF2A /* Sources */,
+				20231FDE18FE933C0060BF2A /* Frameworks */,
+				20231FDF18FE933C0060BF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20231FE718FE933C0060BF2A /* PBXTargetDependency */,
+			);
+			name = SDKDemoCodeTests;
+			productName = SDKDemoCodeTests;
+			productReference = 20231FE118FE933C0060BF2A /* SDKDemoCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20231FB818FE933C0060BF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SDK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = survey;
+				TargetAttributes = {
+					20231FE018FE933C0060BF2A = {
+						TestTargetID = 20231FBF18FE933C0060BF2A;
+					};
+				};
+			};
+			buildConfigurationList = 20231FBB18FE933C0060BF2A /* Build configuration list for PBXProject "SDKDemoCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20231FB718FE933C0060BF2A;
+			productRefGroup = 20231FC118FE933C0060BF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20231FBF18FE933C0060BF2A /* SDKDemoCode */,
+				20231FE018FE933C0060BF2A /* SDKDemoCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20231FBE18FE933C0060BF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20218AF8198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib in Resources */,
+				20218AD4198136F0001FB487 /* SARatingCell_iPhone.nib in Resources */,
+				20218AD1198136F0001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */,
+				20218AF4198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib in Resources */,
+				20218AF2198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib in Resources */,
+				20218AF1198136F0001FB487 /* SASectionSmileyYN_iPhone.nib in Resources */,
+				20218AE8198136F0001FB487 /* SASectionNPS_iPhone.nib in Resources */,
+				20218AE6198136F0001FB487 /* SASectionInfo_iPhone.nib in Resources */,
+				20218AFD198136F0001FB487 /* SASurveyViewController_iPh.nib in Resources */,
+				20218ADD198136F0001FB487 /* SASectionDiscreteChoice_iPhone.nib in Resources */,
+				20218ACB198136F0001FB487 /* SADlCell_iPhone.nib in Resources */,
+				20218AEA198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */,
+				20218AC5198136F0001FB487 /* REComposeViewController.bundle in Resources */,
+				20218AE7198136F0001FB487 /* SASectionMicroPanel_iPhone.nib in Resources */,
+				20218AFE198136F0001FB487 /* SAUICatalog.bundle in Resources */,
+				20218B01198136F0001FB487 /* SmileyYNCell_iPh.nib in Resources */,
+				20218AF3198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib in Resources */,
+				20218AC7198136F0001FB487 /* SABarCodeCell_iPhone.nib in Resources */,
+				20218AD5198136F0001FB487 /* SASectionBarCode_iPhone.nib in Resources */,
+				20218AE9198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */,
+				20218AF0198136F0001FB487 /* SASectionSliderViewController_iPhone.nib in Resources */,
+				20218ACC198136F0001FB487 /* SAFreeformTextCell_iPhone.nib in Resources */,
+				20327FD61907BC5C00CE928B /* SingleSurveyDisplay.xib in Resources */,
+				20218AC8198136F0001FB487 /* SAContainerViewController.nib in Resources */,
+				20218B00198136F0001FB487 /* SmileyRatingCell_iPh.nib in Resources */,
+				20218ACE198136F0001FB487 /* SAMaxDiffCell_iPh.nib in Resources */,
+				20218B02198136F0001FB487 /* SurveyAnalyticsDB.mom in Resources */,
+				20218ADA198136F0001FB487 /* SASectionConjointMaxDiff_iPhone.nib in Resources */,
+				20218AED198136F0001FB487 /* SASectionRankViewController_iPhone.nib in Resources */,
+				20327FD91907BC6E00CE928B /* SDKViewController.xib in Resources */,
+				20218ACD198136F0001FB487 /* SALabelTextFieldCell_iPhone.nib in Resources */,
+				20218AFA198136F0001FB487 /* SAStopWatch_iPhone.nib in Resources */,
+				20218AC9198136F0001FB487 /* SADateTimeCell_iPhone.nib in Resources */,
+				20218AE2198136F0001FB487 /* SASectionICChoices_iPhone.nib in Resources */,
+				20218AF7198136F0001FB487 /* SASliderCell_iPhone.nib in Resources */,
+				20218AD8198136F0001FB487 /* SASectionChoicesViewController_iPhone.nib in Resources */,
+				20231FDC18FE933C0060BF2A /* Images.xcassets in Resources */,
+				20218ADC198136F0001FB487 /* SASectionDateTime_iPhone.nib in Resources */,
+				20218AE4198136F0001FB487 /* SASectionImageRatingViewController_iPhone.nib in Resources */,
+				20218AEC198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib in Resources */,
+				20218AE1198136F0001FB487 /* SASectionICChoiceCell_iPhone.nib in Resources */,
+				20218AF9198136F0001FB487 /* SAStarRating_iPhone.nib in Resources */,
+				20218AE3198136F0001FB487 /* SASectionImageRankingViewController_iPhone.nib in Resources */,
+				20218AC6198136F0001FB487 /* SAAudioResponseCell.nib in Resources */,
+				20218AD9198136F0001FB487 /* SASectionChoiceViewController_iPhone.nib in Resources */,
+				20218AD3198136F0001FB487 /* SARankLabelTextFieldCell_iPhone.nib in Resources */,
+				20218AFF198136F0001FB487 /* SignatureCell_iPhone.nib in Resources */,
+				20218AE5198136F0001FB487 /* SASectionImgRatingCell_iPhone.nib in Resources */,
+				20218ADE198136F0001FB487 /* SASectionDLController_iPhone.nib in Resources */,
+				20218AC3198136F0001FB487 /* DynamicHeightTextCell.nib in Resources */,
+				20218AD2198136F0001FB487 /* SARankImgLabelCell_iPhone.nib in Resources */,
+				20231FCE18FE933C0060BF2A /* InfoPlist.strings in Resources */,
+				20218ADB198136F0001FB487 /* SASectionContactInfoViewController_iPhone.nib in Resources */,
+				20218AD7198136F0001FB487 /* SASectionChoiceCell_iPhone.nib in Resources */,
+				20218ACF198136F0001FB487 /* SANpsCell_iPhone.nib in Resources */,
+				20218AD0198136F0001FB487 /* SAOfflineService.nib in Resources */,
+				20218AEE198136F0001FB487 /* SASectionRecordAudio_iPh.nib in Resources */,
+				20327FDC1907BC7D00CE928B /* SurveyListDisplay.xib in Resources */,
+				20218AFB198136F0001FB487 /* SAStopWatchCell_iPhone.nib in Resources */,
+				20218AC2198136F0001FB487 /* Activity.nib in Resources */,
+				20F958F81920A3B700C9AC7C /* NavigationTopNew.png in Resources */,
+				20218AEF198136F0001FB487 /* SASectionSignature_iPhone.nib in Resources */,
+				20218AEB198136F0001FB487 /* SASectionRadio_iPhone.nib in Resources */,
+				20218AF5198136F0001FB487 /* SASectionUnsupported_iPhone.nib in Resources */,
+				20218AC4198136F0001FB487 /* FBDialog.bundle in Resources */,
+				20218AF6198136F0001FB487 /* SASingleSurveyViewController.nib in Resources */,
+				20218AD6198136F0001FB487 /* SASectionCheckBoxes_iPhone.nib in Resources */,
+				20218AFC198136F0001FB487 /* SASurveyListViewController.nib in Resources */,
+				20218ADF198136F0001FB487 /* SASectionFreeformTextViewController_iPhone.nib in Resources */,
+				20218B03198136F0001FB487 /* Toolbar.nib in Resources */,
+				20218AE0198136F0001FB487 /* SASectionICChoice_iPhone.nib in Resources */,
+				20218ACA198136F0001FB487 /* SADisChoiceCell_iPh.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20231FDF18FE933C0060BF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20231FED18FE933C0060BF2A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20231FBC18FE933C0060BF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20231FD018FE933C0060BF2A /* main.m in Sources */,
+				2021A9331901101E00E716E5 /* SingleSurveyDisplay.m in Sources */,
+				20231FDA18FE933C0060BF2A /* SDKViewController.m in Sources */,
+				2023208518FE9AB10060BF2A /* SurveyListDisplay.m in Sources */,
+				20231FD418FE933C0060BF2A /* SDKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20231FDD18FE933C0060BF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20231FEF18FE933C0060BF2A /* SDKDemoCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20231FE718FE933C0060BF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20231FBF18FE933C0060BF2A /* SDKDemoCode */;
+			targetProxy = 20231FE618FE933C0060BF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20231FCC18FE933C0060BF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20231FCD18FE933C0060BF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20231FEB18FE933C0060BF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20231FEC18FE933C0060BF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20327FD81907BC5C00CE928B /* SingleSurveyDisplay.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20327FD71907BC5C00CE928B /* en */,
+			);
+			name = SingleSurveyDisplay.xib;
+			sourceTree = "<group>";
+		};
+		20327FDB1907BC6E00CE928B /* SDKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20327FDA1907BC6E00CE928B /* en */,
+			);
+			name = SDKViewController.xib;
+			sourceTree = "<group>";
+		};
+		20327FDE1907BC7D00CE928B /* SurveyListDisplay.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20327FDD1907BC7D00CE928B /* en */,
+			);
+			name = SurveyListDisplay.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20231FF018FE933C0060BF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Survey Analytics LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Survey Analytics LLC";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8E27FAD2-CA6A-4C90-92C6-18FA4C78F919";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		20231FF118FE933C0060BF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Survey Analytics LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Survey Analytics LLC";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8E27FAD2-CA6A-4C90-92C6-18FA4C78F919";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		20231FF318FE933C0060BF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: anish bhanwala (C2GJ8K7MKW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\\\"",
+					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode/SAUICatalog.embeddedframework\\\"",
+					"$(PROJECT_DIR)/SAUICatalog.embeddedframework",
+					/Users/priyankakumari/sapphire/foundation/SAFramework/SDKDemos/SDKDemoCode/SAUICatalog.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemoCode/SDKDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "SDKDemoCode/SDKDemoCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\"";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "857FA1F2-DD15-41B7-8ACD-9CD077C634C7";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20231FF418FE933C0060BF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: anish bhanwala (C2GJ8K7MKW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\\\"",
+					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode/SAUICatalog.embeddedframework\\\"",
+					"$(PROJECT_DIR)/SAUICatalog.embeddedframework",
+					/Users/priyankakumari/sapphire/foundation/SAFramework/SDKDemos/SDKDemoCode/SAUICatalog.embeddedframework,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemoCode/SDKDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "SDKDemoCode/SDKDemoCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\"";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "857FA1F2-DD15-41B7-8ACD-9CD077C634C7";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20231FF618FE933C0060BF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemoCode.app/SDKDemoCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemoCode/SDKDemoCode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDKDemoCodeTests/SDKDemoCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20231FF718FE933C0060BF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemoCode.app/SDKDemoCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemoCode/SDKDemoCode-Prefix.pch";
+				INFOPLIST_FILE = "SDKDemoCodeTests/SDKDemoCodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20231FBB18FE933C0060BF2A /* Build configuration list for PBXProject "SDKDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20231FF018FE933C0060BF2A /* Debug */,
+				20231FF118FE933C0060BF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20231FF218FE933C0060BF2A /* Build configuration list for PBXNativeTarget "SDKDemoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20231FF318FE933C0060BF2A /* Debug */,
+				20231FF418FE933C0060BF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20231FF518FE933C0060BF2A /* Build configuration list for PBXNativeTarget "SDKDemoCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20231FF618FE933C0060BF2A /* Debug */,
+				20231FF718FE933C0060BF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20231FB818FE933C0060BF2A /* Project object */;
+}

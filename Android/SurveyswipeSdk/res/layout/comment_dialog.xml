@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp">
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:inputType="text"
+        android:singleLine="false"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/leave_a_comment"
+         android:background="@drawable/question_ans_backgroung"
+        android:id="@+id/comment"/>
+    
+    <Button 
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/done"
+        android:layout_below="@+id/comment"
+        android:layout_alignParentLeft="true"
+        android:text="@string/done"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/login_button"/>
+    
+    <Button 
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/comment"
+        android:layout_alignParentRight="true"
+        android:text="@string/cancel"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/login_button"/>
+
+</RelativeLayout>

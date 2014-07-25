@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_app_background" >
+
+
+    <TextView 
+        android:id="@+id/thans_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/color_app_text_contrast"
+        android:text="@string/thanks_msg"/>
+    
+    <Button
+        android:id="@+id/done_button" 
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/thans_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/next_question_btn"
+        android:text="@string/done"
+        android:textColor="@color/color_app_text_contrast"/>
+</RelativeLayout>

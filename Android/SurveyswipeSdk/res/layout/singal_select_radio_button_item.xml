@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RadioButton
+        android:id="@+id/rbMatrixOption"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp"
+        android:layout_marginLeft="3dp"
+        android:textColor="@color/color_app_text_contrast"
+        android:text="" 
+    	android:background="@drawable/list_item_selector"/>
+
+    
+        <ImageView 
+            android:id="@+id/divider_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/line_no_shadding"/>
+
+</LinearLayout>

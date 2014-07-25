@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+	android:id="@+id/multiSelect"
+	android:paddingTop="20px" 
+	android:orientation="vertical">
+	
+	<TextView android:id="@+id/surveyQuestion" 
+		style="@style/SurveyQuestion"
+        android:layout_height="0px"
+		android:layout_weight="0.2" 
+		android:padding="10px"/>
+		
+	<ImageView
+       android:id="@+id/previewImgVw"
+       android:layout_height="0px"
+       android:layout_width="match_parent"
+       android:layout_weight="0.6" 
+   	   android:gravity="center_vertical|center_horizontal"
+       android:layout_marginBottom="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp" />
+       
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_height="0px" 
+		android:layout_width="fill_parent"
+		android:layout_weight="0.2" 
+		android:paddingTop="10dp"
+		android:orientation="horizontal">
+		
+		<Button
+		    android:id="@+id/uploadBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_weight="0.45"
+		    android:background="@drawable/btn_fancy"
+		    android:drawableLeft="@drawable/upload_photo_2"
+		    android:text="@string/question_ethno_upload_btn"
+		    android:textColor="@color/color_app_text" />
+	    
+	    <Button android:id="@+id/takePhotoBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_weight="0.55"
+	        android:text="@string/question_ethno_photo_btn"
+	        android:textColor="@color/color_app_text"
+	        android:background="@drawable/btn_fancy"
+		    android:drawableLeft="@drawable/upload_photo"/>
+	
+	</LinearLayout>   
+
+</LinearLayout>

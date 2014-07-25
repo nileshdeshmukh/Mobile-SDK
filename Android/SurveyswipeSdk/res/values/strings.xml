@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SASwipeSdk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+   <!-- <string name="api_key">584c61e6-7563-4bfd-aa32-d018423af6e9</string> 584c61e6-7563-4bfd-aa32-d018423af6e9 -->
+    
+    <string name="service_not_found">Service not found, please check internet setting.</string>
+    <string name="app_server_unavailable">App server unavailable, please try again later.</string>
+    <string name="error_performing_operation">The operation cannot be completed at this time.</string>
+    <string name="error_network_notavailable">Network is not available</string>
+    <string name="error_unable_to_connect_to_server">Unable to connect to the server.</string>
+    <string name="local_data_not_available">Network error and local data not available.</string>
+    <string name="progress_loading_surveys">Loading surveys</string>
+    <string name="survey_progress_format">Question %1$d of %2$d</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="network_not_available">Network not available</string>
+    <string name="confirm">Confirm</string>
+    <string name="rank_order_confirmation_msg">Have you selected the order in which you would rank each option?</string>
+    <string name="exit_survey_confirmation_msg">Current survey is incomplete. \nDo you still want to exit from this survey?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="i_agree">I Agree</string>
+    <string name="not_supported">This question type is not supported in this version. Please skip to the next question or upgrade to the latest version.</string>
+    <string name="unable_to_store_response_locally">Unable to store response locally for submitting letter.</string>
+    <string name="sd_card_not_mount">Sd card may not be mounted in device.</string>
+    <string name="progress_submitting_survey">Submitting your responses.</string>
+    <string name="error_location_failed">Unable to obtain current location. Please try again later.</string>
+    <string name="progress_location">Acquiring location.</string>
+    <string name="offline_support_default">true</string>
+    <string name="no_survey_text">No Surveys available for this panel</string>
+    <string name="progress_title">Loading...</string>
+    <string name="unsupported_questions_msg">You have %1$d unsupported question(s) in this survey.</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Validation Messages -->
+    <string name="generaliz_validation_msg">This question requires an answer.</string>
+    <string name="error_section_not_answered">Please choose an answer in order to proceed further.</string>
+    
+    <!-- Multiple select Question type -->
+    <string name="enter_value">Other field Value</string>
+    <string name="please_select_exactly_ans">Please select exactly %1$d answer(s)</string>
+    <string name="please_select_at_most_ans">Please select at most %d answer(s)</string>
+    
+    <!-- Free form question -->
+    <string name="start_typing_here"></string>
+    <string name="register_validEmail">Please enter a valid email address</string>
+    <string name="input_field_charactore_limit">Input field is limited to %1$d number of characters.</string>
+    <string name="inout_field_range_validation">Input value must be between %1$d and %2$d</string>
+    <string name="Input_is_not_a_valid_number">Input is not a valid number.</string>
+    
+    <!-- Barcode Scanner Question type -->
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning...</string>
+    <string name="resolving_barcode">Resolving Barcode</string>
+    <string name="barcode_scaner_text">Tap the Scan button to capture the Product code.</string>
+    <string name="start_time_to_give_ans">Please start timer to give answer.</string>
+    <string name="barcode_scane_successfully">Barcode was scanned successfully.</string>
+    <string name="nte_not_available_unable_to_resolve_barcode">Network Not Available - Unable to resolve barcode.</string>
+    <string name="barcode_was_resolve_successfully">Barcode was resolved successfully</string>
+    <string name="Unable_to_resolve_barcode_from_UPC_database">Unable to resolve Barcode From UPC Database !</string>
+    <string name="unable_to_resolve_barcode_from_SA_api">Unable to resolve Barcode from SA API !</string>
+    
+     <!-- Singal select type Question -->
+    <string name="please_select_one">Please select one</string>
+    <string name="select_one">Select one</string>
+    <string name="singal_select_required_field">You have to select at least one option</string>
+
+     <!-- Matrix Question Types -->
+    <string name="matrix_spreadsheet_required_field">Please fill in each of the text boxes.</string>
+    
+    <!-- Constant sum Question Type -->
+    <string name="points_allocate">Points Allocated</string>
+    <string name="points_remainig">Points Remaining</string>
+    <string name="error_constant_sum">Values Must Add Up to %d</string>
+     
+    <!-- Date and Time Question type -->
+    <string name="invalide_date">Invalid date.</string>
+    <string name="year_range">Year of the date must be between %1$d and %2$d.</string>
+    
+     <!-- Contact Info Question Type -->
+    <string name="please_fill_all_field">Please fill all the required fields.</string>
+    <string name="custome_required_field_msg">Please enter the %s value</string>
+    
+    <!-- Tube Pulse Question Type -->
+    <string name="error_tube_pulse">Must watch Up to %d seconds</string>
+    <string name="sec_text">secs   :</string>
+    <string name="lowest">Lowest</string>
+    <string name="highest">Highest</string>
+    <string name="comments">Comments</string>
+    <string name="leave_a_comment">Leave a Comment</string>
+    <string name="done">Done</string>
+    <string name="validation_enter_comment">Please enter comment.</string>
+    
+     <!-- Upload File type Question -->
+    <string name="question_ethno_upload_btn">Upload</string>
+    <string name="question_ethno_photo_btn">Take photo</string>
+    <string name="question_ethno_photo_err">Could not process picture</string>
+    <string name="record">Record</string>
+    <string name="choose_audio_file">Choose file</string>
+    <string name="audio_file_loaded">Audio file loaded</string>
+    <string name="playing_audio">Playing audio...</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="choose_video_file">Choose file</string>
+    <string name="video_file_loaded">Video file loaded</string>
+    <string name="capture_video">Capture Video</string>
+    <string name="capture_picture">Capture Picture</string>
+    <string name="picture_loaded">Picture Loaded</string>
+    <string name="clear_signature">Clear</string>
+    <string name="file_loaded">File loaded</string>
+    
+    <!-- Dynamin lookup type question -->
+    <string name="choose_one">Choose one</string>
+    
+    <!-- Descrete Choice Quetstion type -->
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="validation_msg_conjoint_discrete">Please choose one of the options presented.</string>
+    <string name="unsupported_design">Unsupported Design</string>
+    
+    <!-- Side-by-Side Matrix  -->
+    <string name="validation_msg_sidebyside">Please choose one option for every section</string>
+    
+    <!-- Thanks message -->
+    <string name="thanks_msg">Thanks for answering this survey!!!</string>
+    
+</resources>

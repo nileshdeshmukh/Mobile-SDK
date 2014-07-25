@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="@color/black_semi_transparent">
+    
+    
+    <TextView android:id="@+id/txtPreviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgPreview"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch
+        android:id="@id/imgPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        />
+    
+    
+    
+    <ImageView android:id="@+id/imgClose" 
+        android:layout_width="35dp"
+        android:layout_height="35dp"        
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close_round"
+        android:onClick="closeClicked"/>
+    
+
+</RelativeLayout>

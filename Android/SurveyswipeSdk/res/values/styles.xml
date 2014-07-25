@@ -1,0 +1,100 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+     <style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/color_dialog_text</item>
+    </style>
+    
+     <style name="ListViewIcon">
+        <item name="android:maxWidth">@dimen/ss_small_image_width</item>
+        <item name="android:maxHeight">@dimen/ss_small_image_height</item>
+        <item name="android:layout_width">@dimen/ss_small_image_width</item>
+        <item name="android:layout_height">@dimen/ss_small_image_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ListHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/color_app_text_contrast</item>
+    </style>
+    
+     <style name="ListSubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/color_app_text_fade</item>
+    </style>
+    
+     <style name="SurveyQuestion">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/color_app_text_contrast</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/question_ans_backgroung</item>
+    </style>
+    
+     <style name="DescriptionSurveyQuestion">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/color_app_text_contrast</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/question_ans_backgroung</item>
+    </style>
+
+     <style name="SurveyOptionTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/color_app_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

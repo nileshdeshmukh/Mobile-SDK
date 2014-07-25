@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingTop="5dp">
+
+    <CheckBox
+        android:id="@+id/chkSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox_selector"
+        android:paddingLeft="40dp"
+        android:textColor="@color/color_app_text_contrast" />
+
+    <RadioButton
+        android:id="@+id/rdSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textColor="@color/color_app_text_contrast"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgOption"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

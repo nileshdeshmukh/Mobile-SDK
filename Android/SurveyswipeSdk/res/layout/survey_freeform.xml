@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sectionUI"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/surveyQuestion"
+        style="@style/SurveyQuestion"/>
+
+    <EditText
+        android:id="@+id/commentEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="left|top"
+        android:hint="@string/start_typing_here"
+        android:maxLines="10"
+        android:padding="10dp"
+        android:background="@drawable/question_ans_backgroung"
+        android:textColor="@color/color_app_text_contrast"
+        android:textSize="@dimen/text_size_medium" />
+
+</LinearLayout>

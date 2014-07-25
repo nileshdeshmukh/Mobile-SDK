@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include 
+        layout="@layout/title_bar"
+        android:id="@+id/take_survey_title_bar"/>
+    <view
+        android:id="@+id/scrollingSurveyUIContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="25dp"
+        android:layout_below="@+id/take_survey_title_bar"
+        class="com.surveyanalytics.androidsdk.widgets.ScrollViewEx"
+        android:background="@drawable/surveyswipe_background_strip_repeated"
+        android:visibility="gone" />
+
+    <view
+        android:id="@+id/nonScrollingSurveyUIContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="25dp"
+        android:layout_below="@+id/take_survey_title_bar"
+        class="com.surveyanalytics.androidsdk.widgets.LinearLayoutEx"
+        android:background="@drawable/surveyswipe_background_strip_repeated"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/error_msg_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/error_msg_background"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/next_question_btn"
+        android:text="@string/next"
+        android:textColor="#0a6186"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

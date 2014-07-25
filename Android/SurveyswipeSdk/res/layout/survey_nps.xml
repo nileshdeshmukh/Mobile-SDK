@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/npsQuestion"
+        style="@style/SurveyQuestion"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/question_ans_backgroung">
+
+        <ImageView
+            android:id="@+id/npsImgAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/num_0" />
+
+        <SeekBar
+            android:id="@+id/npsSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:progressDrawable="@drawable/styled_progress"
+            android:thumb="@drawable/seekbar_pointer"
+            android:thumbOffset="6dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:id="@+id/npsLeftAnchor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left" 
+                android:textColor="@color/color_app_text_contrast"/>
+
+            <TextView
+                android:id="@+id/npsRightAnchor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+				android:textColor="@color/color_app_text_contrast"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

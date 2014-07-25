@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/point_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:background="@android:color/transparent" >
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:textColor="@color/color_app_text_contrast"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <SeekBar
+        android:id="@+id/frequency_slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_text"
+        android:max="100"
+        android:progress="0"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:maxHeight="3dip"
+        android:minHeight="3dip"
+        android:paddingBottom="10dp"
+        android:progressDrawable="@drawable/styled_progress"
+        android:secondaryProgress="0"
+        android:thumb="@drawable/seekbar_pointer"
+        android:thumbOffset="6dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/suffix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/color_app_text_contrast"
+        android:textSize="15sp"
+        android:text="  "
+        android:textStyle="bold" >
+    </TextView>
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/suffix"
+        android:layout_marginRight="5dp"
+        android:text="0"
+        android:textColor="@color/color_app_text_contrast"
+        android:textSize="15sp"
+        android:textStyle="normal" >
+    </TextView>
+
+    <View
+        android:id="@+id/line_break"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/actionbar_separator"/>
+
+</RelativeLayout>

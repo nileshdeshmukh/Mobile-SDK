@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size_smallest">9sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    
+    <dimen name="ss_small_image_width">60px</dimen>
+    <dimen name="ss_small_image_height">40px</dimen>
+    
+    <dimen name="matrix_imgview_height">100dp</dimen>
+    
+    <integer name="full_screen_image_width">300</integer>
+    <integer name="full_screen_image_height">450</integer>
+    <integer name="icon_image_width">70</integer>
+    <integer name="icon_image_height">70</integer>
+    <integer name="matrix_que_image_width">100</integer>
+    <integer name="matrix_image_height">100</integer>
+    <integer name="select_img_que_image_width">150</integer>
+    <integer name="select_img_que_image_height">150</integer>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sectionUI"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/surveyInstruction"
+        style="@style/DescriptionSurveyQuestion"
+        android:layout_alignParentTop="true"/>
+
+    <CheckBox
+        android:id="@+id/acceptance_checkBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/question_ans_backgroung"
+        android:paddingLeft="40dp"
+        android:text="@string/i_agree"
+        android:textColor="@color/color_app_text_contrast"
+        android:textSize="@dimen/text_size_medium" />
+
+</RelativeLayout>

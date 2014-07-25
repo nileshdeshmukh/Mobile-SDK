@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.shoppinglist.android"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" >
+    </uses-sdk>
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+  <!--   <uses-permission android:name="android.permission.ACCOUNT_MANAGER" /> -->
+ 	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- MAIN ACTIVITY -->
+        <activity
+            android:name=".ShoppinglistActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- WIDGET PART -->
+        <receiver android:name=".widget.ShoppinglistWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="de.shoppinglist.android.widget.ShoppinglistWidgetProvider.ACTION_WIDGET_UPDATE_DATA" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver android:name="de.shoppinglist.android.widget.ShoppinglistWidgetBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="de.shoppinglist.android.widget.CLICK_ROW" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".widget.ShoppinglistWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- OTHER ACTIVITIES -->
+        <activity
+            android:name=".StoreProductsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AddProductActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".UserConfigurationActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="localhost"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditProductActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".ManageStoresActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ManageUnitsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ManageFavoritesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".EditFavoriteActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".AddFavoriteActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".EditFavoriteProductListActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".EditFavoriteProductMappingActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".AddProductToFavoriteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AddStoreActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".AddUnitActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".EditStoreActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".EditUnitActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name=".ShowHistoryOverviewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ShowHistoryShoppinglist"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SendEmailActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+        </activity>
+
+        <!-- ACTIVITY FOR GOOGLE DRIVE -->
+        <activity
+            android:name=".googledrive.GoogleOAuthActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".googledrive.DriveApiActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity 
+            android:name="com.surveyanalytics.androidsdk.SurveysListActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.surveyanalytics.androidsdk.TakeSurvey"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"></activity>
+        <activity 
+            android:name="com.surveyanalytics.androidsdk.ImagePreview"
+            android:screenOrientation="portrait"></activity>
+        <activity 
+            android:configChanges="keyboardHidden|orientation|keyboard" 
+            android:name="com.surveyanalytics.androidsdk.AudioVideoPlayer"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity 
+            android:configChanges="keyboardHidden|orientation|keyboard" 
+            android:name="com.surveyanalytics.androidsdk.VideoCapture" 
+            android:screenOrientation="landscape">
+        </activity>
+        
+        <activity
+            android:configChanges="keyboardHidden|orientation|keyboard" 
+            android:name="com.surveyanalytics.androidsdk.ThanksAcitivty"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

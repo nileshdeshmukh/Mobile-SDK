@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Basic colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#999999</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#1414F1</color>
+    <color name="orange">#FAA73A</color>
+    <color name="transparent">#FAA73A</color>
+    <color name="black_semi_transparent">#AA000000</color>
+    <color name="color_dialog_text">@color/white</color>
+    <color name="color_app_background">@color/white</color>
+    <color name="color_app_text_fade">#999999</color>
+    <color name="color_app_text">@color/white</color>
+    <color name="color_app_text_contrast">@color/black</color>
+    <color name="listview_selected_row_bg_color">#CFCFCF</color>
+    <color name="listview_border_color">#003372</color>
+    <color name="question_border_color">#003372</color>
+    <color name="color_simple_list_item_multiple_choice_custom_text">@color/black</color>
+    <color name="actionbar_separator">@color/gray</color>
+    
+    <color name="invite_btn_blue0">#058cf5</color>
+    <color name="invite_btn_blue1">#015fe6</color>
+    <color name="sign_in_btn_bg_start_color">#5CAEE0</color>
+    <color name="sign_in_btn_bg_end_color">#3181BC</color>
+
+</resources>

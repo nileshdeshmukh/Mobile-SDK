@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        style="@style/SurveyQuestion" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_ans_backgroung" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ListView
+            android:id="@+id/conjointMainList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

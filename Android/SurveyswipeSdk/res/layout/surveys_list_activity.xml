@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/survey_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/surveyswipe_background_strip_repeated"
+    android:orientation="vertical">
+    
+    <include 
+        layout="@layout/title_bar"
+        android:id="@+id/survey_title_bar"/>
+
+    <TextView
+        android:id="@+id/no_survey_text" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="@string/no_survey_text"
+        android:textColor="@color/color_app_text_contrast"
+        android:visibility="gone"/>
+    <ListView 
+        android:id="@+id/surveys_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/survey_title_bar"
+        android:background="@drawable/listview_border"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:visibility="gone"></ListView>
+</RelativeLayout>

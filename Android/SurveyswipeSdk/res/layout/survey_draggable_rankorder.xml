@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/surveyQuestion"
+        style="@style/SurveyQuestion" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/question_ans_backgroung"
+        android:padding="5dp" >
+
+        <com.surveyanalytics.androidsdk.widgets.TouchListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tlv="http://schemas.android.com/apk/res-auto"
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/line"
+            android:drawSelectorOnTop="false"
+            tlv:expanded_height="12dip"
+            tlv:grabber="@+id/handle"
+            tlv:remove_mode="none" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/surveyQuestion"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/question_ans_backgroung"
+        android:layout_margin="5dp"
+        android:text="*"
+        android:textColor="@color/red"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/question_ans_backgroung"
+        android:paddingBottom="10dp" >
+
+        <HorizontalScrollView
+            android:id="@+id/sidebyside_hScrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:padding="1dp" >
+
+            <LinearLayout
+                android:id="@+id/sidebyside_dropdwon_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/matrix_container_background"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

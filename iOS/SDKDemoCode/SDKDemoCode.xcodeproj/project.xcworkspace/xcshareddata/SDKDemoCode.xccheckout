@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>09124FAA-9A37-488D-82FA-1F6B110955F7</string>
+	<string>0D4F7A79-9FBF-4133-A64F-430FA444404C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SDKDemoCode</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BFDE034E-1AA3-4B72-841C-1915775A6EB2</key>
-		<string>https://github.com/surveyanalyticscorp/sapphire.git</string>
+		<key>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</key>
+		<string>https://github.com/surveyanalyticscorp/Mobile-SDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>foundation/SAFramework/SDKDemos/SDKDemoCode/SDKDemoCode.xcodeproj/project.xcworkspace</string>
+	<string>iOS/SDKDemoCode/SDKDemoCode.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BFDE034E-1AA3-4B72-841C-1915775A6EB2</key>
-		<string>../../../../../..</string>
+		<key>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/surveyanalyticscorp/sapphire.git</string>
+	<string>https://github.com/surveyanalyticscorp/Mobile-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BFDE034E-1AA3-4B72-841C-1915775A6EB2</string>
+	<string>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BFDE034E-1AA3-4B72-841C-1915775A6EB2</string>
+			<string>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>sapphire</string>
+			<string>Mobile-SDK</string>
 		</dict>
 	</array>
 </dict>

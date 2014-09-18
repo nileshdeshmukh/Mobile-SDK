@@ -32,7 +32,7 @@
      self.view.backgroundColor = [UIColor whiteColor];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setTitle:@"Cancel" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button setFrame:CGRectMake(0.0f, 0.0f, 60.0f, 35.0f)];
     [button addTarget:self action:@selector(backToHome) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
@@ -52,9 +52,9 @@
 {
     // To set current controller for Root Observer of SDK callback events
     [self.saView setRootViewController:self];
-       [self.saView setStrPanelApiKey:@"929fdb1d-b877-4a72-b4a9-00480ec151b3"];
+    [self.saView setStrPanelApiKey:@"f927c3e6-2344-4f6c-84ac-ae3523d74065"];
     // To set Panel Nember - Replace with appropriate id
-    [self.saView setStrPanelMemberID:@"2048923"];
+    [self.saView setStrPanelMemberID:@"2103853"];
     
     // To set Survey ID  - Replace with appropriate id
     [self.saView setStrSurveyID:@""];
@@ -67,13 +67,13 @@
     self.saView.viewBackgroundColor = [UIColor whiteColor];
     
     // To set NavigationBar Text Color
-    self.saView.navigationBarTextColor = [UIColor blackColor];
+    self.saView.navigationBarTextColor = [UIColor whiteColor];
     
     // To set NavigationBar Title Font style
     self.saView.NavigationBarTitleFont = [UIFont systemFontOfSize:12];
     
     // To set Main SurveyList screen title
-    self.saView.navigationBarTitle = @"Demo App";
+    self.saView.navigationBarTitle = @"Surveys";
     
     // To set Whether Sections has Info Branding button or not
     self.saView.hasSectionScreenInfoButton = NO;
@@ -82,17 +82,21 @@
     // To set Whether sdk is populated with NavigationBar or not
     self.saView.hasNavigationBar = YES;
     if ([[[UIDevice currentDevice] systemVersion] floatValue] > 6.1) {
-        self.saView.hasSectionToolBar=YES;
+     //   self.saView.hasSectionToolBar=YES;
+    //    self.saView.hasStartSurveyScreenToolBar=YES;
         // To set Frame of Toolbar in Start Survey screen
        self.saView.startSurveyScreenToolBarFrame  = CGRectMake(0, 460, 320, 44);
         // To set navigationBar background
-        self.saView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTopNew.png"];
-        
+      //  self.saView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTopNew.png"];
+        self.saView.hasProgressView=YES;
+        self.saView.sectionScreenTrackTintColor = [UIColor grayColor];
+        self.saView.sectionScreenProgressTintColor = [UIColor blueColor];
+
         
         self.saView.colorSectionBackButtonBackground=[UIColor clearColor];
         self.saView.colorSectionScreenHomeButtonBackground=[UIColor clearColor];
-        self.saView.colorSectionHomeButtonTitle=[UIColor blueColor];
-        self.saView.colorSectionBackButtonTitle=[UIColor blueColor];
+        self.saView.colorSectionHomeButtonTitle=[UIColor whiteColor];
+        self.saView.colorSectionBackButtonTitle=[UIColor whiteColor];
 
         // To set NavigationBar tint color
         // self.saView.navigationBarTintColor = [UIColor clearColor];
@@ -106,19 +110,19 @@
     {
         // To set ProgressBar Tint and Track colors
         self.saView.hasProgressView=YES;
-        self.saView.sectionScreenTrackTintColor = [UIColor clearColor];
-        self.saView.sectionScreenProgressTintColor = [UIColor clearColor];
+        self.saView.sectionScreenTrackTintColor = [UIColor grayColor];
+        self.saView.sectionScreenProgressTintColor = [UIColor blueColor];
         
       
         // To set navigationBar background
-        self.saView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTop"];
+       // self.saView.imgNavigationBarBackground = [UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"];
         
         // To set NavigationBar tint color
         // self.saView.navigationBarTintColor = [UIColor clearColor];
 
         
-        self.saView.hasSectionToolBar=YES;
-        self.saView.toolBarTintColor=[UIColor yellowColor];
+      //  self.saView.hasSectionToolBar=YES;
+      //  self.saView.toolBarTintColor=[UIColor yellowColor];
 //  self.saView.imgSectionBackButtonBackground = [UIImage imageNamed:@"back"];
 // To set Background image for Home/close button in Section screen
 //self.saView.imgSectionScreenHomeButtonBackground = [UIImage imageNamed:@"section_home"];
@@ -129,11 +133,12 @@
         // self.saView.sectionScreenToolBarFrame= CGRectMake(50, 436, 220, 44);
         self.saView.startSurveyScreenToolBarFrame=CGRectMake(50, 436, 220, 44);
     }
-    
+     self.saView.imgNavigationBarBackground = [UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"];
+    //  self.saView.imgToolbarBackground=[UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"];
     // To set TextColor of Survey Title in Start Survey screen
-    self.saView.startSurveyScreenSurveyTitleTextColor = [UIColor blueColor];
+    self.saView.startSurveyScreenSurveyTitleTextColor = [UIColor blackColor];
     // To set whether Start Survey screen has toolbar or not
-    self.saView.hasStartSurveyScreenToolBar = YES;
+   // self.saView.hasStartSurveyScreenToolBar = YES;
     
        // To set Background of Bottom Toolbar in various sections
         //  self.saView.imgToolbarBackground = [UIImage imageNamed:@"footer-bar"];
@@ -151,7 +156,7 @@
     self.saView.startSurveyScreenSurveyTitleFrame = CGRectMake(5, 45, 310, 35);
     
     // To set Font of Survey Title in Start Survey screen
-    self.saView.startSurveyScreenSurveyTitleFont = [UIFont fontWithName:@"Helvetica-Bold" size:13.0f];
+    self.saView.startSurveyScreenSurveyTitleFont = [UIFont fontWithName:@"Helvetica-Light" size:12.0f];
     
 //    // To set TextColor of Survey Title in Start Survey screen
 //    self.saView.startSurveyScreenSurveyTitleTextColor = [UIColor whiteColor];
@@ -159,7 +164,7 @@
   // self.saView.sectionBackButtonBackgroundColor=[UIColor greenColor];
     
     // To set TextColor of Start Survey Button in Start Survey screen
-    self.saView.startSurveyScreenStartButtonTextColor = [UIColor redColor];
+    self.saView.startSurveyScreenStartButtonTextColor = [UIColor colorWithRed:(0/255.0) green:(89/255.0) blue:(131/255.0) alpha:1] ;
     
     // To set BackgroundColor of Start Survey Button in Start Survey screen
     self.saView.startSurveyScreenStartButtonBackgroundColor = [UIColor clearColor];
@@ -201,7 +206,7 @@
     }
     // To set Font of Next Button in Question screen
     self.saView.sectionScreenNextButtonFont = [UIFont fontWithName:@"Helvetica-Bold" size:15.0f];
-    self.saView.sectionScreenNextButtonTextColor=[UIColor blueColor];
+    self.saView.sectionScreenNextButtonTextColor=[UIColor colorWithRed:(0/255.0) green:(89/255.0) blue:(131/255.0) alpha:1] ;
     
     // To set Background Image of Next Button in Question screen
     //  self.saView.imgSectionScreenNextButtonBackground = [UIImage imageNamed:@"footer-bar"];
@@ -227,13 +232,13 @@
     
     // To set Single/Multi Select Question's Answer font & Color
     self.saView.sectionScreenAnswerTextFont = [UIFont fontWithName:@"Gotham-Book" size:14];
-    self.saView.sectionScreenAnswerTextColor = [UIColor brownColor];
+    self.saView.sectionScreenAnswerTextColor = [UIColor blackColor];
     
       // To set Question Text Font
     self.saView.sectionQuestionTextFont = [UIFont fontWithName:@"Gotham-Book" size:17];
     
     // To set Question Text Color
-    self.saView.sectionQuestionTextColor = [UIColor colorWithRed:(11/255.0) green:(149/255.0) blue:(255/255.0) alpha:1];
+    self.saView.sectionQuestionTextColor = [UIColor blackColor];//[UIColor colorWithRed:(11/255.0) green:(149/255.0) blue:(255/255.0) alpha:1];
     
     // To set Frame of Question
     self.saView.sectionQuestionViewFrame = CGRectMake(10, 15, 275, 25);
@@ -386,7 +391,7 @@
 -(void)surveyCompletionTriggered
 {
     NSLog(@"surveyCompletionTriggered");
-    
+     [self dismissViewControllerAnimated:YES completion:nil];
 }
 -(IBAction)surveyDismissBtnClicked:(id)sender
 {

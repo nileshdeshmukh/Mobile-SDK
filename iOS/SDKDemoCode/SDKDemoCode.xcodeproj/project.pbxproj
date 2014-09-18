@@ -7,73 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20218AC2198136F0001FB487 /* Activity.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A7F198136EF001FB487 /* Activity.nib */; };
-		20218AC3198136F0001FB487 /* DynamicHeightTextCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */; };
-		20218AC4198136F0001FB487 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218A81198136EF001FB487 /* FBDialog.bundle */; };
-		20218AC5198136F0001FB487 /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218A82198136EF001FB487 /* REComposeViewController.bundle */; };
-		20218AC6198136F0001FB487 /* SAAudioResponseCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A83198136EF001FB487 /* SAAudioResponseCell.nib */; };
-		20218AC7198136F0001FB487 /* SABarCodeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */; };
-		20218AC8198136F0001FB487 /* SAContainerViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A85198136EF001FB487 /* SAContainerViewController.nib */; };
-		20218AC9198136F0001FB487 /* SADateTimeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */; };
-		20218ACA198136F0001FB487 /* SADisChoiceCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */; };
-		20218ACB198136F0001FB487 /* SADlCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A88198136EF001FB487 /* SADlCell_iPhone.nib */; };
-		20218ACC198136F0001FB487 /* SAFreeformTextCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */; };
-		20218ACD198136F0001FB487 /* SALabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */; };
-		20218ACE198136F0001FB487 /* SAMaxDiffCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */; };
-		20218ACF198136F0001FB487 /* SANpsCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */; };
-		20218AD0198136F0001FB487 /* SAOfflineService.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8D198136EF001FB487 /* SAOfflineService.nib */; };
-		20218AD1198136F0001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */; };
-		20218AD2198136F0001FB487 /* SARankImgLabelCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */; };
-		20218AD3198136F0001FB487 /* SARankLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */; };
-		20218AD4198136F0001FB487 /* SARatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */; };
-		20218AD5198136F0001FB487 /* SASectionBarCode_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */; };
-		20218AD6198136F0001FB487 /* SASectionCheckBoxes_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */; };
-		20218AD7198136F0001FB487 /* SASectionChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */; };
-		20218AD8198136F0001FB487 /* SASectionChoicesViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */; };
-		20218AD9198136F0001FB487 /* SASectionChoiceViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */; };
-		20218ADA198136F0001FB487 /* SASectionConjointMaxDiff_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */; };
-		20218ADB198136F0001FB487 /* SASectionContactInfoViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */; };
-		20218ADC198136F0001FB487 /* SASectionDateTime_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */; };
-		20218ADD198136F0001FB487 /* SASectionDiscreteChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */; };
-		20218ADE198136F0001FB487 /* SASectionDLController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */; };
-		20218ADF198136F0001FB487 /* SASectionFreeformTextViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */; };
-		20218AE0198136F0001FB487 /* SASectionICChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */; };
-		20218AE1198136F0001FB487 /* SASectionICChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */; };
-		20218AE2198136F0001FB487 /* SASectionICChoices_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */; };
-		20218AE3198136F0001FB487 /* SASectionImageRankingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */; };
-		20218AE4198136F0001FB487 /* SASectionImageRatingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */; };
-		20218AE5198136F0001FB487 /* SASectionImgRatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */; };
-		20218AE6198136F0001FB487 /* SASectionInfo_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */; };
-		20218AE7198136F0001FB487 /* SASectionMicroPanel_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */; };
-		20218AE8198136F0001FB487 /* SASectionNPS_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */; };
-		20218AE9198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */; };
-		20218AEA198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */; };
-		20218AEB198136F0001FB487 /* SASectionRadio_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */; };
-		20218AEC198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */; };
-		20218AED198136F0001FB487 /* SASectionRankViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */; };
-		20218AEE198136F0001FB487 /* SASectionRecordAudio_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */; };
-		20218AEF198136F0001FB487 /* SASectionSignature_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */; };
-		20218AF0198136F0001FB487 /* SASectionSliderViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */; };
-		20218AF1198136F0001FB487 /* SASectionSmileyYN_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */; };
-		20218AF2198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */; };
-		20218AF3198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */; };
-		20218AF4198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */; };
-		20218AF5198136F0001FB487 /* SASectionUnsupported_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */; };
-		20218AF6198136F0001FB487 /* SASingleSurveyViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */; };
-		20218AF7198136F0001FB487 /* SASliderCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */; };
-		20218AF8198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */; };
-		20218AF9198136F0001FB487 /* SAStarRating_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */; };
-		20218AFA198136F0001FB487 /* SAStopWatch_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */; };
-		20218AFB198136F0001FB487 /* SAStopWatchCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */; };
-		20218AFC198136F0001FB487 /* SASurveyListViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AB9198136F0001FB487 /* SASurveyListViewController.nib */; };
-		20218AFD198136F0001FB487 /* SASurveyViewController_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */; };
-		20218AFE198136F0001FB487 /* SAUICatalog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABB198136F0001FB487 /* SAUICatalog.bundle */; };
-		20218AFF198136F0001FB487 /* SignatureCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */; };
-		20218B00198136F0001FB487 /* SmileyRatingCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */; };
-		20218B01198136F0001FB487 /* SmileyYNCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */; };
-		20218B02198136F0001FB487 /* SurveyAnalyticsDB.mom in Resources */ = {isa = PBXBuildFile; fileRef = 20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */; };
-		20218B03198136F0001FB487 /* Toolbar.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20218AC0198136F0001FB487 /* Toolbar.nib */; };
-		20218B04198136F0001FB487 /* SAUICatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20218AC1198136F0001FB487 /* SAUICatalog.framework */; };
 		2021A9331901101E00E716E5 /* SingleSurveyDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2021A9311901101E00E716E5 /* SingleSurveyDisplay.m */; };
 		20231FC418FE933C0060BF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC318FE933C0060BF2A /* Foundation.framework */; };
 		20231FC618FE933C0060BF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20231FC518FE933C0060BF2A /* CoreGraphics.framework */; };
@@ -109,6 +42,73 @@
 		20327FD61907BC5C00CE928B /* SingleSurveyDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FD81907BC5C00CE928B /* SingleSurveyDisplay.xib */; };
 		20327FD91907BC6E00CE928B /* SDKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FDB1907BC6E00CE928B /* SDKViewController.xib */; };
 		20327FDC1907BC7D00CE928B /* SurveyListDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20327FDE1907BC7D00CE928B /* SurveyListDisplay.xib */; };
+		20BF33561994FA0E00E6EC42 /* Activity.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33131994FA0E00E6EC42 /* Activity.nib */; };
+		20BF33571994FA0E00E6EC42 /* DynamicHeightTextCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33141994FA0E00E6EC42 /* DynamicHeightTextCell.nib */; };
+		20BF33581994FA0E00E6EC42 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33151994FA0E00E6EC42 /* FBDialog.bundle */; };
+		20BF33591994FA0E00E6EC42 /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33161994FA0E00E6EC42 /* REComposeViewController.bundle */; };
+		20BF335A1994FA0E00E6EC42 /* SAAudioResponseCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33171994FA0E00E6EC42 /* SAAudioResponseCell.nib */; };
+		20BF335B1994FA0E00E6EC42 /* SABarCodeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33181994FA0E00E6EC42 /* SABarCodeCell_iPhone.nib */; };
+		20BF335C1994FA0E00E6EC42 /* SAContainerViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33191994FA0E00E6EC42 /* SAContainerViewController.nib */; };
+		20BF335D1994FA0E00E6EC42 /* SADateTimeCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331A1994FA0E00E6EC42 /* SADateTimeCell_iPhone.nib */; };
+		20BF335E1994FA0E00E6EC42 /* SADisChoiceCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331B1994FA0E00E6EC42 /* SADisChoiceCell_iPh.nib */; };
+		20BF335F1994FA0E00E6EC42 /* SADlCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331C1994FA0E00E6EC42 /* SADlCell_iPhone.nib */; };
+		20BF33601994FA0E00E6EC42 /* SAFreeformTextCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331D1994FA0E00E6EC42 /* SAFreeformTextCell_iPhone.nib */; };
+		20BF33611994FA0E00E6EC42 /* SALabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331E1994FA0E00E6EC42 /* SALabelTextFieldCell_iPhone.nib */; };
+		20BF33621994FA0E00E6EC42 /* SAMaxDiffCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF331F1994FA0E00E6EC42 /* SAMaxDiffCell_iPh.nib */; };
+		20BF33631994FA0E00E6EC42 /* SANpsCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33201994FA0E00E6EC42 /* SANpsCell_iPhone.nib */; };
+		20BF33641994FA0E00E6EC42 /* SAOfflineService.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33211994FA0E00E6EC42 /* SAOfflineService.nib */; };
+		20BF33651994FA0E00E6EC42 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33221994FA0E00E6EC42 /* SARankChecksumLabelTextFieldCell_iPhone.nib */; };
+		20BF33661994FA0E00E6EC42 /* SARankImgLabelCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33231994FA0E00E6EC42 /* SARankImgLabelCell_iPhone.nib */; };
+		20BF33671994FA0E00E6EC42 /* SARankLabelTextFieldCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33241994FA0E00E6EC42 /* SARankLabelTextFieldCell_iPhone.nib */; };
+		20BF33681994FA0E00E6EC42 /* SARatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33251994FA0E00E6EC42 /* SARatingCell_iPhone.nib */; };
+		20BF33691994FA0E00E6EC42 /* SASectionBarCode_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33261994FA0E00E6EC42 /* SASectionBarCode_iPhone.nib */; };
+		20BF336A1994FA0E00E6EC42 /* SASectionCheckBoxes_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33271994FA0E00E6EC42 /* SASectionCheckBoxes_iPhone.nib */; };
+		20BF336B1994FA0E00E6EC42 /* SASectionChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33281994FA0E00E6EC42 /* SASectionChoiceCell_iPhone.nib */; };
+		20BF336C1994FA0E00E6EC42 /* SASectionChoicesViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33291994FA0E00E6EC42 /* SASectionChoicesViewController_iPhone.nib */; };
+		20BF336D1994FA0E00E6EC42 /* SASectionChoiceViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332A1994FA0E00E6EC42 /* SASectionChoiceViewController_iPhone.nib */; };
+		20BF336E1994FA0E00E6EC42 /* SASectionConjointMaxDiff_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332B1994FA0E00E6EC42 /* SASectionConjointMaxDiff_iPhone.nib */; };
+		20BF336F1994FA0E00E6EC42 /* SASectionContactInfoViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332C1994FA0E00E6EC42 /* SASectionContactInfoViewController_iPhone.nib */; };
+		20BF33701994FA0E00E6EC42 /* SASectionDateTime_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332D1994FA0E00E6EC42 /* SASectionDateTime_iPhone.nib */; };
+		20BF33711994FA0E00E6EC42 /* SASectionDiscreteChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332E1994FA0E00E6EC42 /* SASectionDiscreteChoice_iPhone.nib */; };
+		20BF33721994FA0E00E6EC42 /* SASectionDLController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF332F1994FA0E00E6EC42 /* SASectionDLController_iPhone.nib */; };
+		20BF33731994FA0E00E6EC42 /* SASectionFreeformTextViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33301994FA0E00E6EC42 /* SASectionFreeformTextViewController_iPhone.nib */; };
+		20BF33741994FA0E00E6EC42 /* SASectionICChoice_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33311994FA0E00E6EC42 /* SASectionICChoice_iPhone.nib */; };
+		20BF33751994FA0E00E6EC42 /* SASectionICChoiceCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33321994FA0E00E6EC42 /* SASectionICChoiceCell_iPhone.nib */; };
+		20BF33761994FA0E00E6EC42 /* SASectionICChoices_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33331994FA0E00E6EC42 /* SASectionICChoices_iPhone.nib */; };
+		20BF33771994FA0E00E6EC42 /* SASectionImageRankingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33341994FA0E00E6EC42 /* SASectionImageRankingViewController_iPhone.nib */; };
+		20BF33781994FA0E00E6EC42 /* SASectionImageRatingViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33351994FA0E00E6EC42 /* SASectionImageRatingViewController_iPhone.nib */; };
+		20BF33791994FA0E00E6EC42 /* SASectionImgRatingCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33361994FA0E00E6EC42 /* SASectionImgRatingCell_iPhone.nib */; };
+		20BF337A1994FA0E00E6EC42 /* SASectionInfo_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33371994FA0E00E6EC42 /* SASectionInfo_iPhone.nib */; };
+		20BF337B1994FA0E00E6EC42 /* SASectionMicroPanel_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33381994FA0E00E6EC42 /* SASectionMicroPanel_iPhone.nib */; };
+		20BF337C1994FA0E00E6EC42 /* SASectionNPS_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33391994FA0E00E6EC42 /* SASectionNPS_iPhone.nib */; };
+		20BF337D1994FA0E00E6EC42 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333A1994FA0E00E6EC42 /* SASectionPhotoVideoCapture_iPhone.nib */; };
+		20BF337E1994FA0E00E6EC42 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333B1994FA0E00E6EC42 /* SaSectionPhotoVideoCell_iPhone.nib */; };
+		20BF337F1994FA0E00E6EC42 /* SASectionRadio_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333C1994FA0E00E6EC42 /* SASectionRadio_iPhone.nib */; };
+		20BF33801994FA0E00E6EC42 /* SASectionRankChecksumViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333D1994FA0E00E6EC42 /* SASectionRankChecksumViewController_iPhone.nib */; };
+		20BF33811994FA0E00E6EC42 /* SASectionRankViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333E1994FA0E00E6EC42 /* SASectionRankViewController_iPhone.nib */; };
+		20BF33821994FA0E00E6EC42 /* SASectionRecordAudio_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF333F1994FA0E00E6EC42 /* SASectionRecordAudio_iPh.nib */; };
+		20BF33831994FA0E00E6EC42 /* SASectionSignature_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33401994FA0E00E6EC42 /* SASectionSignature_iPhone.nib */; };
+		20BF33841994FA0E00E6EC42 /* SASectionSliderViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33411994FA0E00E6EC42 /* SASectionSliderViewController_iPhone.nib */; };
+		20BF33851994FA0E00E6EC42 /* SASectionSmileyYN_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33421994FA0E00E6EC42 /* SASectionSmileyYN_iPhone.nib */; };
+		20BF33861994FA0E00E6EC42 /* SASectionSpreadSheet_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33431994FA0E00E6EC42 /* SASectionSpreadSheet_iPhone.nib */; };
+		20BF33871994FA0E00E6EC42 /* SASectionSSDropDownCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33441994FA0E00E6EC42 /* SASectionSSDropDownCell_iPhone.nib */; };
+		20BF33881994FA0E00E6EC42 /* SASectionSSDropDownViewController_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33451994FA0E00E6EC42 /* SASectionSSDropDownViewController_iPhone.nib */; };
+		20BF33891994FA0E00E6EC42 /* SASectionUnsupported_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33461994FA0E00E6EC42 /* SASectionUnsupported_iPhone.nib */; };
+		20BF338A1994FA0E00E6EC42 /* SASingleSurveyViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33471994FA0E00E6EC42 /* SASingleSurveyViewController.nib */; };
+		20BF338B1994FA0E00E6EC42 /* SASliderCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33481994FA0E00E6EC42 /* SASliderCell_iPhone.nib */; };
+		20BF338C1994FA0E00E6EC42 /* SASliderCheckBoxCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33491994FA0E00E6EC42 /* SASliderCheckBoxCell_iPh.nib */; };
+		20BF338D1994FA0E00E6EC42 /* SAStarRating_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334A1994FA0E00E6EC42 /* SAStarRating_iPhone.nib */; };
+		20BF338E1994FA0E00E6EC42 /* SAStopWatch_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334B1994FA0E00E6EC42 /* SAStopWatch_iPhone.nib */; };
+		20BF338F1994FA0E00E6EC42 /* SAStopWatchCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334C1994FA0E00E6EC42 /* SAStopWatchCell_iPhone.nib */; };
+		20BF33901994FA0E00E6EC42 /* SASurveyListViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334D1994FA0E00E6EC42 /* SASurveyListViewController.nib */; };
+		20BF33911994FA0E00E6EC42 /* SASurveyViewController_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334E1994FA0E00E6EC42 /* SASurveyViewController_iPh.nib */; };
+		20BF33921994FA0E00E6EC42 /* SAUICatalog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20BF334F1994FA0E00E6EC42 /* SAUICatalog.bundle */; };
+		20BF33931994FA0E00E6EC42 /* SignatureCell_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33501994FA0E00E6EC42 /* SignatureCell_iPhone.nib */; };
+		20BF33941994FA0E00E6EC42 /* SmileyRatingCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33511994FA0E00E6EC42 /* SmileyRatingCell_iPh.nib */; };
+		20BF33951994FA0E00E6EC42 /* SmileyYNCell_iPh.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33521994FA0E00E6EC42 /* SmileyYNCell_iPh.nib */; };
+		20BF33961994FA0E00E6EC42 /* SurveyAnalyticsDB.mom in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33531994FA0E00E6EC42 /* SurveyAnalyticsDB.mom */; };
+		20BF33971994FA0E00E6EC42 /* Toolbar.nib in Resources */ = {isa = PBXBuildFile; fileRef = 20BF33541994FA0E00E6EC42 /* Toolbar.nib */; };
+		20BF33981994FA0E00E6EC42 /* SAUICatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF33551994FA0E00E6EC42 /* SAUICatalog.framework */; };
 		20F958F81920A3B700C9AC7C /* NavigationTopNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F958F71920A3B700C9AC7C /* NavigationTopNew.png */; };
 /* End PBXBuildFile section */
 
@@ -123,73 +123,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20218A7F198136EF001FB487 /* Activity.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Activity.nib; sourceTree = "<group>"; };
-		20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DynamicHeightTextCell.nib; sourceTree = "<group>"; };
-		20218A81198136EF001FB487 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
-		20218A82198136EF001FB487 /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
-		20218A83198136EF001FB487 /* SAAudioResponseCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAAudioResponseCell.nib; sourceTree = "<group>"; };
-		20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SABarCodeCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A85198136EF001FB487 /* SAContainerViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAContainerViewController.nib; sourceTree = "<group>"; };
-		20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADateTimeCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADisChoiceCell_iPh.nib; sourceTree = "<group>"; };
-		20218A88198136EF001FB487 /* SADlCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADlCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAFreeformTextCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SALabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAMaxDiffCell_iPh.nib; sourceTree = "<group>"; };
-		20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SANpsCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A8D198136EF001FB487 /* SAOfflineService.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAOfflineService.nib; sourceTree = "<group>"; };
-		20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankChecksumLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankImgLabelCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARatingCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionBarCode_iPhone.nib; sourceTree = "<group>"; };
-		20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionCheckBoxes_iPhone.nib; sourceTree = "<group>"; };
-		20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoicesViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionConjointMaxDiff_iPhone.nib; sourceTree = "<group>"; };
-		20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionContactInfoViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDateTime_iPhone.nib; sourceTree = "<group>"; };
-		20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDiscreteChoice_iPhone.nib; sourceTree = "<group>"; };
-		20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDLController_iPhone.nib; sourceTree = "<group>"; };
-		20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionFreeformTextViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoice_iPhone.nib; sourceTree = "<group>"; };
-		20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoiceCell_iPhone.nib; sourceTree = "<group>"; };
-		20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoices_iPhone.nib; sourceTree = "<group>"; };
-		20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRankingViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRatingViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImgRatingCell_iPhone.nib; sourceTree = "<group>"; };
-		20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionInfo_iPhone.nib; sourceTree = "<group>"; };
-		20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionMicroPanel_iPhone.nib; sourceTree = "<group>"; };
-		20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionNPS_iPhone.nib; sourceTree = "<group>"; };
-		20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionPhotoVideoCapture_iPhone.nib; sourceTree = "<group>"; };
-		20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SaSectionPhotoVideoCell_iPhone.nib; sourceTree = "<group>"; };
-		20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRadio_iPhone.nib; sourceTree = "<group>"; };
-		20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankChecksumViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRecordAudio_iPh.nib; sourceTree = "<group>"; };
-		20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSignature_iPhone.nib; sourceTree = "<group>"; };
-		20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSliderViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSmileyYN_iPhone.nib; sourceTree = "<group>"; };
-		20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSpreadSheet_iPhone.nib; sourceTree = "<group>"; };
-		20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownCell_iPhone.nib; sourceTree = "<group>"; };
-		20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownViewController_iPhone.nib; sourceTree = "<group>"; };
-		20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionUnsupported_iPhone.nib; sourceTree = "<group>"; };
-		20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASingleSurveyViewController.nib; sourceTree = "<group>"; };
-		20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCell_iPhone.nib; sourceTree = "<group>"; };
-		20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCheckBoxCell_iPh.nib; sourceTree = "<group>"; };
-		20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStarRating_iPhone.nib; sourceTree = "<group>"; };
-		20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatch_iPhone.nib; sourceTree = "<group>"; };
-		20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatchCell_iPhone.nib; sourceTree = "<group>"; };
-		20218AB9198136F0001FB487 /* SASurveyListViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyListViewController.nib; sourceTree = "<group>"; };
-		20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyViewController_iPh.nib; sourceTree = "<group>"; };
-		20218ABB198136F0001FB487 /* SAUICatalog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAUICatalog.bundle; sourceTree = "<group>"; };
-		20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SignatureCell_iPhone.nib; sourceTree = "<group>"; };
-		20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyRatingCell_iPh.nib; sourceTree = "<group>"; };
-		20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyYNCell_iPh.nib; sourceTree = "<group>"; };
-		20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SurveyAnalyticsDB.mom; sourceTree = "<group>"; };
-		20218AC0198136F0001FB487 /* Toolbar.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Toolbar.nib; sourceTree = "<group>"; };
-		20218AC1198136F0001FB487 /* SAUICatalog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAUICatalog.framework; sourceTree = "<group>"; };
 		2021A9301901101E00E716E5 /* SingleSurveyDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleSurveyDisplay.h; sourceTree = "<group>"; };
 		2021A9311901101E00E716E5 /* SingleSurveyDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleSurveyDisplay.m; sourceTree = "<group>"; };
 		20231FC018FE933C0060BF2A /* SDKDemoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +165,73 @@
 		20327FD71907BC5C00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SingleSurveyDisplay.xib; sourceTree = "<group>"; };
 		20327FDA1907BC6E00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDKViewController.xib; sourceTree = "<group>"; };
 		20327FDD1907BC7D00CE928B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SurveyListDisplay.xib; sourceTree = "<group>"; };
+		20BF33131994FA0E00E6EC42 /* Activity.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Activity.nib; sourceTree = "<group>"; };
+		20BF33141994FA0E00E6EC42 /* DynamicHeightTextCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DynamicHeightTextCell.nib; sourceTree = "<group>"; };
+		20BF33151994FA0E00E6EC42 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		20BF33161994FA0E00E6EC42 /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
+		20BF33171994FA0E00E6EC42 /* SAAudioResponseCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAAudioResponseCell.nib; sourceTree = "<group>"; };
+		20BF33181994FA0E00E6EC42 /* SABarCodeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SABarCodeCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33191994FA0E00E6EC42 /* SAContainerViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAContainerViewController.nib; sourceTree = "<group>"; };
+		20BF331A1994FA0E00E6EC42 /* SADateTimeCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADateTimeCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF331B1994FA0E00E6EC42 /* SADisChoiceCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADisChoiceCell_iPh.nib; sourceTree = "<group>"; };
+		20BF331C1994FA0E00E6EC42 /* SADlCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SADlCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF331D1994FA0E00E6EC42 /* SAFreeformTextCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAFreeformTextCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF331E1994FA0E00E6EC42 /* SALabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SALabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF331F1994FA0E00E6EC42 /* SAMaxDiffCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAMaxDiffCell_iPh.nib; sourceTree = "<group>"; };
+		20BF33201994FA0E00E6EC42 /* SANpsCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SANpsCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33211994FA0E00E6EC42 /* SAOfflineService.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAOfflineService.nib; sourceTree = "<group>"; };
+		20BF33221994FA0E00E6EC42 /* SARankChecksumLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankChecksumLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33231994FA0E00E6EC42 /* SARankImgLabelCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankImgLabelCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33241994FA0E00E6EC42 /* SARankLabelTextFieldCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARankLabelTextFieldCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33251994FA0E00E6EC42 /* SARatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SARatingCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33261994FA0E00E6EC42 /* SASectionBarCode_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionBarCode_iPhone.nib; sourceTree = "<group>"; };
+		20BF33271994FA0E00E6EC42 /* SASectionCheckBoxes_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionCheckBoxes_iPhone.nib; sourceTree = "<group>"; };
+		20BF33281994FA0E00E6EC42 /* SASectionChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33291994FA0E00E6EC42 /* SASectionChoicesViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoicesViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF332A1994FA0E00E6EC42 /* SASectionChoiceViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionChoiceViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF332B1994FA0E00E6EC42 /* SASectionConjointMaxDiff_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionConjointMaxDiff_iPhone.nib; sourceTree = "<group>"; };
+		20BF332C1994FA0E00E6EC42 /* SASectionContactInfoViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionContactInfoViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF332D1994FA0E00E6EC42 /* SASectionDateTime_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDateTime_iPhone.nib; sourceTree = "<group>"; };
+		20BF332E1994FA0E00E6EC42 /* SASectionDiscreteChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDiscreteChoice_iPhone.nib; sourceTree = "<group>"; };
+		20BF332F1994FA0E00E6EC42 /* SASectionDLController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionDLController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33301994FA0E00E6EC42 /* SASectionFreeformTextViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionFreeformTextViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33311994FA0E00E6EC42 /* SASectionICChoice_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoice_iPhone.nib; sourceTree = "<group>"; };
+		20BF33321994FA0E00E6EC42 /* SASectionICChoiceCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoiceCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33331994FA0E00E6EC42 /* SASectionICChoices_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionICChoices_iPhone.nib; sourceTree = "<group>"; };
+		20BF33341994FA0E00E6EC42 /* SASectionImageRankingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRankingViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33351994FA0E00E6EC42 /* SASectionImageRatingViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImageRatingViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33361994FA0E00E6EC42 /* SASectionImgRatingCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionImgRatingCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33371994FA0E00E6EC42 /* SASectionInfo_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionInfo_iPhone.nib; sourceTree = "<group>"; };
+		20BF33381994FA0E00E6EC42 /* SASectionMicroPanel_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionMicroPanel_iPhone.nib; sourceTree = "<group>"; };
+		20BF33391994FA0E00E6EC42 /* SASectionNPS_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionNPS_iPhone.nib; sourceTree = "<group>"; };
+		20BF333A1994FA0E00E6EC42 /* SASectionPhotoVideoCapture_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionPhotoVideoCapture_iPhone.nib; sourceTree = "<group>"; };
+		20BF333B1994FA0E00E6EC42 /* SaSectionPhotoVideoCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SaSectionPhotoVideoCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF333C1994FA0E00E6EC42 /* SASectionRadio_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRadio_iPhone.nib; sourceTree = "<group>"; };
+		20BF333D1994FA0E00E6EC42 /* SASectionRankChecksumViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankChecksumViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF333E1994FA0E00E6EC42 /* SASectionRankViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRankViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF333F1994FA0E00E6EC42 /* SASectionRecordAudio_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionRecordAudio_iPh.nib; sourceTree = "<group>"; };
+		20BF33401994FA0E00E6EC42 /* SASectionSignature_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSignature_iPhone.nib; sourceTree = "<group>"; };
+		20BF33411994FA0E00E6EC42 /* SASectionSliderViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSliderViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33421994FA0E00E6EC42 /* SASectionSmileyYN_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSmileyYN_iPhone.nib; sourceTree = "<group>"; };
+		20BF33431994FA0E00E6EC42 /* SASectionSpreadSheet_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSpreadSheet_iPhone.nib; sourceTree = "<group>"; };
+		20BF33441994FA0E00E6EC42 /* SASectionSSDropDownCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33451994FA0E00E6EC42 /* SASectionSSDropDownViewController_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionSSDropDownViewController_iPhone.nib; sourceTree = "<group>"; };
+		20BF33461994FA0E00E6EC42 /* SASectionUnsupported_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASectionUnsupported_iPhone.nib; sourceTree = "<group>"; };
+		20BF33471994FA0E00E6EC42 /* SASingleSurveyViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASingleSurveyViewController.nib; sourceTree = "<group>"; };
+		20BF33481994FA0E00E6EC42 /* SASliderCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33491994FA0E00E6EC42 /* SASliderCheckBoxCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASliderCheckBoxCell_iPh.nib; sourceTree = "<group>"; };
+		20BF334A1994FA0E00E6EC42 /* SAStarRating_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStarRating_iPhone.nib; sourceTree = "<group>"; };
+		20BF334B1994FA0E00E6EC42 /* SAStopWatch_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatch_iPhone.nib; sourceTree = "<group>"; };
+		20BF334C1994FA0E00E6EC42 /* SAStopWatchCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SAStopWatchCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF334D1994FA0E00E6EC42 /* SASurveyListViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyListViewController.nib; sourceTree = "<group>"; };
+		20BF334E1994FA0E00E6EC42 /* SASurveyViewController_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SASurveyViewController_iPh.nib; sourceTree = "<group>"; };
+		20BF334F1994FA0E00E6EC42 /* SAUICatalog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAUICatalog.bundle; sourceTree = "<group>"; };
+		20BF33501994FA0E00E6EC42 /* SignatureCell_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SignatureCell_iPhone.nib; sourceTree = "<group>"; };
+		20BF33511994FA0E00E6EC42 /* SmileyRatingCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyRatingCell_iPh.nib; sourceTree = "<group>"; };
+		20BF33521994FA0E00E6EC42 /* SmileyYNCell_iPh.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SmileyYNCell_iPh.nib; sourceTree = "<group>"; };
+		20BF33531994FA0E00E6EC42 /* SurveyAnalyticsDB.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SurveyAnalyticsDB.mom; sourceTree = "<group>"; };
+		20BF33541994FA0E00E6EC42 /* Toolbar.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Toolbar.nib; sourceTree = "<group>"; };
+		20BF33551994FA0E00E6EC42 /* SAUICatalog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAUICatalog.framework; sourceTree = "<group>"; };
 		20F958F71920A3B700C9AC7C /* NavigationTopNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationTopNew.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,7 +250,7 @@
 				2023209C18FE9C2E0060BF2A /* SystemConfiguration.framework in Frameworks */,
 				2023209A18FE9C220060BF2A /* MediaPlayer.framework in Frameworks */,
 				2023209818FE9C180060BF2A /* MobileCoreServices.framework in Frameworks */,
-				20218B04198136F0001FB487 /* SAUICatalog.framework in Frameworks */,
+				20BF33981994FA0E00E6EC42 /* SAUICatalog.framework in Frameworks */,
 				2023209418FE9C050060BF2A /* AudioToolbox.framework in Frameworks */,
 				2023209218FE9BFB0060BF2A /* CoreVideo.framework in Frameworks */,
 				2023209018FE9BD70060BF2A /* CoreLocation.framework in Frameworks */,
@@ -277,88 +277,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20218A7D198136EF001FB487 /* SAUICatalog.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				20218A7E198136EF001FB487 /* Resources */,
-				20218AC1198136F0001FB487 /* SAUICatalog.framework */,
-			);
-			path = SAUICatalog.embeddedframework;
-			sourceTree = "<group>";
-		};
-		20218A7E198136EF001FB487 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				20218A7F198136EF001FB487 /* Activity.nib */,
-				20218A80198136EF001FB487 /* DynamicHeightTextCell.nib */,
-				20218A81198136EF001FB487 /* FBDialog.bundle */,
-				20218A82198136EF001FB487 /* REComposeViewController.bundle */,
-				20218A83198136EF001FB487 /* SAAudioResponseCell.nib */,
-				20218A84198136EF001FB487 /* SABarCodeCell_iPhone.nib */,
-				20218A85198136EF001FB487 /* SAContainerViewController.nib */,
-				20218A86198136EF001FB487 /* SADateTimeCell_iPhone.nib */,
-				20218A87198136EF001FB487 /* SADisChoiceCell_iPh.nib */,
-				20218A88198136EF001FB487 /* SADlCell_iPhone.nib */,
-				20218A89198136EF001FB487 /* SAFreeformTextCell_iPhone.nib */,
-				20218A8A198136EF001FB487 /* SALabelTextFieldCell_iPhone.nib */,
-				20218A8B198136EF001FB487 /* SAMaxDiffCell_iPh.nib */,
-				20218A8C198136EF001FB487 /* SANpsCell_iPhone.nib */,
-				20218A8D198136EF001FB487 /* SAOfflineService.nib */,
-				20218A8E198136EF001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib */,
-				20218A8F198136EF001FB487 /* SARankImgLabelCell_iPhone.nib */,
-				20218A90198136EF001FB487 /* SARankLabelTextFieldCell_iPhone.nib */,
-				20218A91198136EF001FB487 /* SARatingCell_iPhone.nib */,
-				20218A92198136EF001FB487 /* SASectionBarCode_iPhone.nib */,
-				20218A93198136EF001FB487 /* SASectionCheckBoxes_iPhone.nib */,
-				20218A94198136EF001FB487 /* SASectionChoiceCell_iPhone.nib */,
-				20218A95198136EF001FB487 /* SASectionChoicesViewController_iPhone.nib */,
-				20218A96198136EF001FB487 /* SASectionChoiceViewController_iPhone.nib */,
-				20218A97198136EF001FB487 /* SASectionConjointMaxDiff_iPhone.nib */,
-				20218A98198136EF001FB487 /* SASectionContactInfoViewController_iPhone.nib */,
-				20218A99198136EF001FB487 /* SASectionDateTime_iPhone.nib */,
-				20218A9A198136EF001FB487 /* SASectionDiscreteChoice_iPhone.nib */,
-				20218A9B198136EF001FB487 /* SASectionDLController_iPhone.nib */,
-				20218A9C198136EF001FB487 /* SASectionFreeformTextViewController_iPhone.nib */,
-				20218A9D198136EF001FB487 /* SASectionICChoice_iPhone.nib */,
-				20218A9E198136EF001FB487 /* SASectionICChoiceCell_iPhone.nib */,
-				20218A9F198136EF001FB487 /* SASectionICChoices_iPhone.nib */,
-				20218AA0198136EF001FB487 /* SASectionImageRankingViewController_iPhone.nib */,
-				20218AA1198136EF001FB487 /* SASectionImageRatingViewController_iPhone.nib */,
-				20218AA2198136EF001FB487 /* SASectionImgRatingCell_iPhone.nib */,
-				20218AA3198136EF001FB487 /* SASectionInfo_iPhone.nib */,
-				20218AA4198136EF001FB487 /* SASectionMicroPanel_iPhone.nib */,
-				20218AA5198136EF001FB487 /* SASectionNPS_iPhone.nib */,
-				20218AA6198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib */,
-				20218AA7198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib */,
-				20218AA8198136F0001FB487 /* SASectionRadio_iPhone.nib */,
-				20218AA9198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib */,
-				20218AAA198136F0001FB487 /* SASectionRankViewController_iPhone.nib */,
-				20218AAB198136F0001FB487 /* SASectionRecordAudio_iPh.nib */,
-				20218AAC198136F0001FB487 /* SASectionSignature_iPhone.nib */,
-				20218AAD198136F0001FB487 /* SASectionSliderViewController_iPhone.nib */,
-				20218AAE198136F0001FB487 /* SASectionSmileyYN_iPhone.nib */,
-				20218AAF198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib */,
-				20218AB0198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib */,
-				20218AB1198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib */,
-				20218AB2198136F0001FB487 /* SASectionUnsupported_iPhone.nib */,
-				20218AB3198136F0001FB487 /* SASingleSurveyViewController.nib */,
-				20218AB4198136F0001FB487 /* SASliderCell_iPhone.nib */,
-				20218AB5198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib */,
-				20218AB6198136F0001FB487 /* SAStarRating_iPhone.nib */,
-				20218AB7198136F0001FB487 /* SAStopWatch_iPhone.nib */,
-				20218AB8198136F0001FB487 /* SAStopWatchCell_iPhone.nib */,
-				20218AB9198136F0001FB487 /* SASurveyListViewController.nib */,
-				20218ABA198136F0001FB487 /* SASurveyViewController_iPh.nib */,
-				20218ABB198136F0001FB487 /* SAUICatalog.bundle */,
-				20218ABC198136F0001FB487 /* SignatureCell_iPhone.nib */,
-				20218ABD198136F0001FB487 /* SmileyRatingCell_iPh.nib */,
-				20218ABE198136F0001FB487 /* SmileyYNCell_iPh.nib */,
-				20218ABF198136F0001FB487 /* SurveyAnalyticsDB.mom */,
-				20218AC0198136F0001FB487 /* Toolbar.nib */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		20231FB718FE933C0060BF2A = {
 			isa = PBXGroup;
 			children = (
@@ -381,7 +299,7 @@
 		20231FC218FE933C0060BF2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20218A7D198136EF001FB487 /* SAUICatalog.embeddedframework */,
+				20BF33111994FA0E00E6EC42 /* SAUICatalog.embeddedframework */,
 				202320A718FE9C880060BF2A /* CFNetwork.framework */,
 				202320A518FE9C7E0060BF2A /* libstdc++.dylib */,
 				202320A318FE9C700060BF2A /* libicucore.dylib */,
@@ -455,6 +373,88 @@
 				20231FEB18FE933C0060BF2A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20BF33111994FA0E00E6EC42 /* SAUICatalog.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				20BF33121994FA0E00E6EC42 /* Resources */,
+				20BF33551994FA0E00E6EC42 /* SAUICatalog.framework */,
+			);
+			path = SAUICatalog.embeddedframework;
+			sourceTree = "<group>";
+		};
+		20BF33121994FA0E00E6EC42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20BF33131994FA0E00E6EC42 /* Activity.nib */,
+				20BF33141994FA0E00E6EC42 /* DynamicHeightTextCell.nib */,
+				20BF33151994FA0E00E6EC42 /* FBDialog.bundle */,
+				20BF33161994FA0E00E6EC42 /* REComposeViewController.bundle */,
+				20BF33171994FA0E00E6EC42 /* SAAudioResponseCell.nib */,
+				20BF33181994FA0E00E6EC42 /* SABarCodeCell_iPhone.nib */,
+				20BF33191994FA0E00E6EC42 /* SAContainerViewController.nib */,
+				20BF331A1994FA0E00E6EC42 /* SADateTimeCell_iPhone.nib */,
+				20BF331B1994FA0E00E6EC42 /* SADisChoiceCell_iPh.nib */,
+				20BF331C1994FA0E00E6EC42 /* SADlCell_iPhone.nib */,
+				20BF331D1994FA0E00E6EC42 /* SAFreeformTextCell_iPhone.nib */,
+				20BF331E1994FA0E00E6EC42 /* SALabelTextFieldCell_iPhone.nib */,
+				20BF331F1994FA0E00E6EC42 /* SAMaxDiffCell_iPh.nib */,
+				20BF33201994FA0E00E6EC42 /* SANpsCell_iPhone.nib */,
+				20BF33211994FA0E00E6EC42 /* SAOfflineService.nib */,
+				20BF33221994FA0E00E6EC42 /* SARankChecksumLabelTextFieldCell_iPhone.nib */,
+				20BF33231994FA0E00E6EC42 /* SARankImgLabelCell_iPhone.nib */,
+				20BF33241994FA0E00E6EC42 /* SARankLabelTextFieldCell_iPhone.nib */,
+				20BF33251994FA0E00E6EC42 /* SARatingCell_iPhone.nib */,
+				20BF33261994FA0E00E6EC42 /* SASectionBarCode_iPhone.nib */,
+				20BF33271994FA0E00E6EC42 /* SASectionCheckBoxes_iPhone.nib */,
+				20BF33281994FA0E00E6EC42 /* SASectionChoiceCell_iPhone.nib */,
+				20BF33291994FA0E00E6EC42 /* SASectionChoicesViewController_iPhone.nib */,
+				20BF332A1994FA0E00E6EC42 /* SASectionChoiceViewController_iPhone.nib */,
+				20BF332B1994FA0E00E6EC42 /* SASectionConjointMaxDiff_iPhone.nib */,
+				20BF332C1994FA0E00E6EC42 /* SASectionContactInfoViewController_iPhone.nib */,
+				20BF332D1994FA0E00E6EC42 /* SASectionDateTime_iPhone.nib */,
+				20BF332E1994FA0E00E6EC42 /* SASectionDiscreteChoice_iPhone.nib */,
+				20BF332F1994FA0E00E6EC42 /* SASectionDLController_iPhone.nib */,
+				20BF33301994FA0E00E6EC42 /* SASectionFreeformTextViewController_iPhone.nib */,
+				20BF33311994FA0E00E6EC42 /* SASectionICChoice_iPhone.nib */,
+				20BF33321994FA0E00E6EC42 /* SASectionICChoiceCell_iPhone.nib */,
+				20BF33331994FA0E00E6EC42 /* SASectionICChoices_iPhone.nib */,
+				20BF33341994FA0E00E6EC42 /* SASectionImageRankingViewController_iPhone.nib */,
+				20BF33351994FA0E00E6EC42 /* SASectionImageRatingViewController_iPhone.nib */,
+				20BF33361994FA0E00E6EC42 /* SASectionImgRatingCell_iPhone.nib */,
+				20BF33371994FA0E00E6EC42 /* SASectionInfo_iPhone.nib */,
+				20BF33381994FA0E00E6EC42 /* SASectionMicroPanel_iPhone.nib */,
+				20BF33391994FA0E00E6EC42 /* SASectionNPS_iPhone.nib */,
+				20BF333A1994FA0E00E6EC42 /* SASectionPhotoVideoCapture_iPhone.nib */,
+				20BF333B1994FA0E00E6EC42 /* SaSectionPhotoVideoCell_iPhone.nib */,
+				20BF333C1994FA0E00E6EC42 /* SASectionRadio_iPhone.nib */,
+				20BF333D1994FA0E00E6EC42 /* SASectionRankChecksumViewController_iPhone.nib */,
+				20BF333E1994FA0E00E6EC42 /* SASectionRankViewController_iPhone.nib */,
+				20BF333F1994FA0E00E6EC42 /* SASectionRecordAudio_iPh.nib */,
+				20BF33401994FA0E00E6EC42 /* SASectionSignature_iPhone.nib */,
+				20BF33411994FA0E00E6EC42 /* SASectionSliderViewController_iPhone.nib */,
+				20BF33421994FA0E00E6EC42 /* SASectionSmileyYN_iPhone.nib */,
+				20BF33431994FA0E00E6EC42 /* SASectionSpreadSheet_iPhone.nib */,
+				20BF33441994FA0E00E6EC42 /* SASectionSSDropDownCell_iPhone.nib */,
+				20BF33451994FA0E00E6EC42 /* SASectionSSDropDownViewController_iPhone.nib */,
+				20BF33461994FA0E00E6EC42 /* SASectionUnsupported_iPhone.nib */,
+				20BF33471994FA0E00E6EC42 /* SASingleSurveyViewController.nib */,
+				20BF33481994FA0E00E6EC42 /* SASliderCell_iPhone.nib */,
+				20BF33491994FA0E00E6EC42 /* SASliderCheckBoxCell_iPh.nib */,
+				20BF334A1994FA0E00E6EC42 /* SAStarRating_iPhone.nib */,
+				20BF334B1994FA0E00E6EC42 /* SAStopWatch_iPhone.nib */,
+				20BF334C1994FA0E00E6EC42 /* SAStopWatchCell_iPhone.nib */,
+				20BF334D1994FA0E00E6EC42 /* SASurveyListViewController.nib */,
+				20BF334E1994FA0E00E6EC42 /* SASurveyViewController_iPh.nib */,
+				20BF334F1994FA0E00E6EC42 /* SAUICatalog.bundle */,
+				20BF33501994FA0E00E6EC42 /* SignatureCell_iPhone.nib */,
+				20BF33511994FA0E00E6EC42 /* SmileyRatingCell_iPh.nib */,
+				20BF33521994FA0E00E6EC42 /* SmileyYNCell_iPh.nib */,
+				20BF33531994FA0E00E6EC42 /* SurveyAnalyticsDB.mom */,
+				20BF33541994FA0E00E6EC42 /* Toolbar.nib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		20F958F61920A39E00C9AC7C /* images */ = {
@@ -542,78 +542,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20218AF8198136F0001FB487 /* SASliderCheckBoxCell_iPh.nib in Resources */,
-				20218AD4198136F0001FB487 /* SARatingCell_iPhone.nib in Resources */,
-				20218AD1198136F0001FB487 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */,
-				20218AF4198136F0001FB487 /* SASectionSSDropDownViewController_iPhone.nib in Resources */,
-				20218AF2198136F0001FB487 /* SASectionSpreadSheet_iPhone.nib in Resources */,
-				20218AF1198136F0001FB487 /* SASectionSmileyYN_iPhone.nib in Resources */,
-				20218AE8198136F0001FB487 /* SASectionNPS_iPhone.nib in Resources */,
-				20218AE6198136F0001FB487 /* SASectionInfo_iPhone.nib in Resources */,
-				20218AFD198136F0001FB487 /* SASurveyViewController_iPh.nib in Resources */,
-				20218ADD198136F0001FB487 /* SASectionDiscreteChoice_iPhone.nib in Resources */,
-				20218ACB198136F0001FB487 /* SADlCell_iPhone.nib in Resources */,
-				20218AEA198136F0001FB487 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */,
-				20218AC5198136F0001FB487 /* REComposeViewController.bundle in Resources */,
-				20218AE7198136F0001FB487 /* SASectionMicroPanel_iPhone.nib in Resources */,
-				20218AFE198136F0001FB487 /* SAUICatalog.bundle in Resources */,
-				20218B01198136F0001FB487 /* SmileyYNCell_iPh.nib in Resources */,
-				20218AF3198136F0001FB487 /* SASectionSSDropDownCell_iPhone.nib in Resources */,
-				20218AC7198136F0001FB487 /* SABarCodeCell_iPhone.nib in Resources */,
-				20218AD5198136F0001FB487 /* SASectionBarCode_iPhone.nib in Resources */,
-				20218AE9198136F0001FB487 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */,
-				20218AF0198136F0001FB487 /* SASectionSliderViewController_iPhone.nib in Resources */,
-				20218ACC198136F0001FB487 /* SAFreeformTextCell_iPhone.nib in Resources */,
+				20BF338C1994FA0E00E6EC42 /* SASliderCheckBoxCell_iPh.nib in Resources */,
+				20BF33681994FA0E00E6EC42 /* SARatingCell_iPhone.nib in Resources */,
+				20BF33651994FA0E00E6EC42 /* SARankChecksumLabelTextFieldCell_iPhone.nib in Resources */,
+				20BF33881994FA0E00E6EC42 /* SASectionSSDropDownViewController_iPhone.nib in Resources */,
+				20BF33861994FA0E00E6EC42 /* SASectionSpreadSheet_iPhone.nib in Resources */,
+				20BF33851994FA0E00E6EC42 /* SASectionSmileyYN_iPhone.nib in Resources */,
+				20BF337C1994FA0E00E6EC42 /* SASectionNPS_iPhone.nib in Resources */,
+				20BF337A1994FA0E00E6EC42 /* SASectionInfo_iPhone.nib in Resources */,
+				20BF33911994FA0E00E6EC42 /* SASurveyViewController_iPh.nib in Resources */,
+				20BF33711994FA0E00E6EC42 /* SASectionDiscreteChoice_iPhone.nib in Resources */,
+				20BF335F1994FA0E00E6EC42 /* SADlCell_iPhone.nib in Resources */,
+				20BF337E1994FA0E00E6EC42 /* SaSectionPhotoVideoCell_iPhone.nib in Resources */,
+				20BF33591994FA0E00E6EC42 /* REComposeViewController.bundle in Resources */,
+				20BF337B1994FA0E00E6EC42 /* SASectionMicroPanel_iPhone.nib in Resources */,
+				20BF33921994FA0E00E6EC42 /* SAUICatalog.bundle in Resources */,
+				20BF33951994FA0E00E6EC42 /* SmileyYNCell_iPh.nib in Resources */,
+				20BF33871994FA0E00E6EC42 /* SASectionSSDropDownCell_iPhone.nib in Resources */,
+				20BF335B1994FA0E00E6EC42 /* SABarCodeCell_iPhone.nib in Resources */,
+				20BF33691994FA0E00E6EC42 /* SASectionBarCode_iPhone.nib in Resources */,
+				20BF337D1994FA0E00E6EC42 /* SASectionPhotoVideoCapture_iPhone.nib in Resources */,
+				20BF33841994FA0E00E6EC42 /* SASectionSliderViewController_iPhone.nib in Resources */,
+				20BF33601994FA0E00E6EC42 /* SAFreeformTextCell_iPhone.nib in Resources */,
 				20327FD61907BC5C00CE928B /* SingleSurveyDisplay.xib in Resources */,
-				20218AC8198136F0001FB487 /* SAContainerViewController.nib in Resources */,
-				20218B00198136F0001FB487 /* SmileyRatingCell_iPh.nib in Resources */,
-				20218ACE198136F0001FB487 /* SAMaxDiffCell_iPh.nib in Resources */,
-				20218B02198136F0001FB487 /* SurveyAnalyticsDB.mom in Resources */,
-				20218ADA198136F0001FB487 /* SASectionConjointMaxDiff_iPhone.nib in Resources */,
-				20218AED198136F0001FB487 /* SASectionRankViewController_iPhone.nib in Resources */,
+				20BF335C1994FA0E00E6EC42 /* SAContainerViewController.nib in Resources */,
+				20BF33941994FA0E00E6EC42 /* SmileyRatingCell_iPh.nib in Resources */,
+				20BF33621994FA0E00E6EC42 /* SAMaxDiffCell_iPh.nib in Resources */,
+				20BF33961994FA0E00E6EC42 /* SurveyAnalyticsDB.mom in Resources */,
+				20BF336E1994FA0E00E6EC42 /* SASectionConjointMaxDiff_iPhone.nib in Resources */,
+				20BF33811994FA0E00E6EC42 /* SASectionRankViewController_iPhone.nib in Resources */,
 				20327FD91907BC6E00CE928B /* SDKViewController.xib in Resources */,
-				20218ACD198136F0001FB487 /* SALabelTextFieldCell_iPhone.nib in Resources */,
-				20218AFA198136F0001FB487 /* SAStopWatch_iPhone.nib in Resources */,
-				20218AC9198136F0001FB487 /* SADateTimeCell_iPhone.nib in Resources */,
-				20218AE2198136F0001FB487 /* SASectionICChoices_iPhone.nib in Resources */,
-				20218AF7198136F0001FB487 /* SASliderCell_iPhone.nib in Resources */,
-				20218AD8198136F0001FB487 /* SASectionChoicesViewController_iPhone.nib in Resources */,
+				20BF33611994FA0E00E6EC42 /* SALabelTextFieldCell_iPhone.nib in Resources */,
+				20BF338E1994FA0E00E6EC42 /* SAStopWatch_iPhone.nib in Resources */,
+				20BF335D1994FA0E00E6EC42 /* SADateTimeCell_iPhone.nib in Resources */,
+				20BF33761994FA0E00E6EC42 /* SASectionICChoices_iPhone.nib in Resources */,
+				20BF338B1994FA0E00E6EC42 /* SASliderCell_iPhone.nib in Resources */,
+				20BF336C1994FA0E00E6EC42 /* SASectionChoicesViewController_iPhone.nib in Resources */,
 				20231FDC18FE933C0060BF2A /* Images.xcassets in Resources */,
-				20218ADC198136F0001FB487 /* SASectionDateTime_iPhone.nib in Resources */,
-				20218AE4198136F0001FB487 /* SASectionImageRatingViewController_iPhone.nib in Resources */,
-				20218AEC198136F0001FB487 /* SASectionRankChecksumViewController_iPhone.nib in Resources */,
-				20218AE1198136F0001FB487 /* SASectionICChoiceCell_iPhone.nib in Resources */,
-				20218AF9198136F0001FB487 /* SAStarRating_iPhone.nib in Resources */,
-				20218AE3198136F0001FB487 /* SASectionImageRankingViewController_iPhone.nib in Resources */,
-				20218AC6198136F0001FB487 /* SAAudioResponseCell.nib in Resources */,
-				20218AD9198136F0001FB487 /* SASectionChoiceViewController_iPhone.nib in Resources */,
-				20218AD3198136F0001FB487 /* SARankLabelTextFieldCell_iPhone.nib in Resources */,
-				20218AFF198136F0001FB487 /* SignatureCell_iPhone.nib in Resources */,
-				20218AE5198136F0001FB487 /* SASectionImgRatingCell_iPhone.nib in Resources */,
-				20218ADE198136F0001FB487 /* SASectionDLController_iPhone.nib in Resources */,
-				20218AC3198136F0001FB487 /* DynamicHeightTextCell.nib in Resources */,
-				20218AD2198136F0001FB487 /* SARankImgLabelCell_iPhone.nib in Resources */,
+				20BF33701994FA0E00E6EC42 /* SASectionDateTime_iPhone.nib in Resources */,
+				20BF33781994FA0E00E6EC42 /* SASectionImageRatingViewController_iPhone.nib in Resources */,
+				20BF33801994FA0E00E6EC42 /* SASectionRankChecksumViewController_iPhone.nib in Resources */,
+				20BF33751994FA0E00E6EC42 /* SASectionICChoiceCell_iPhone.nib in Resources */,
+				20BF338D1994FA0E00E6EC42 /* SAStarRating_iPhone.nib in Resources */,
+				20BF33771994FA0E00E6EC42 /* SASectionImageRankingViewController_iPhone.nib in Resources */,
+				20BF335A1994FA0E00E6EC42 /* SAAudioResponseCell.nib in Resources */,
+				20BF336D1994FA0E00E6EC42 /* SASectionChoiceViewController_iPhone.nib in Resources */,
+				20BF33671994FA0E00E6EC42 /* SARankLabelTextFieldCell_iPhone.nib in Resources */,
+				20BF33931994FA0E00E6EC42 /* SignatureCell_iPhone.nib in Resources */,
+				20BF33791994FA0E00E6EC42 /* SASectionImgRatingCell_iPhone.nib in Resources */,
+				20BF33721994FA0E00E6EC42 /* SASectionDLController_iPhone.nib in Resources */,
+				20BF33571994FA0E00E6EC42 /* DynamicHeightTextCell.nib in Resources */,
+				20BF33661994FA0E00E6EC42 /* SARankImgLabelCell_iPhone.nib in Resources */,
 				20231FCE18FE933C0060BF2A /* InfoPlist.strings in Resources */,
-				20218ADB198136F0001FB487 /* SASectionContactInfoViewController_iPhone.nib in Resources */,
-				20218AD7198136F0001FB487 /* SASectionChoiceCell_iPhone.nib in Resources */,
-				20218ACF198136F0001FB487 /* SANpsCell_iPhone.nib in Resources */,
-				20218AD0198136F0001FB487 /* SAOfflineService.nib in Resources */,
-				20218AEE198136F0001FB487 /* SASectionRecordAudio_iPh.nib in Resources */,
+				20BF336F1994FA0E00E6EC42 /* SASectionContactInfoViewController_iPhone.nib in Resources */,
+				20BF336B1994FA0E00E6EC42 /* SASectionChoiceCell_iPhone.nib in Resources */,
+				20BF33631994FA0E00E6EC42 /* SANpsCell_iPhone.nib in Resources */,
+				20BF33641994FA0E00E6EC42 /* SAOfflineService.nib in Resources */,
+				20BF33821994FA0E00E6EC42 /* SASectionRecordAudio_iPh.nib in Resources */,
 				20327FDC1907BC7D00CE928B /* SurveyListDisplay.xib in Resources */,
-				20218AFB198136F0001FB487 /* SAStopWatchCell_iPhone.nib in Resources */,
-				20218AC2198136F0001FB487 /* Activity.nib in Resources */,
+				20BF338F1994FA0E00E6EC42 /* SAStopWatchCell_iPhone.nib in Resources */,
+				20BF33561994FA0E00E6EC42 /* Activity.nib in Resources */,
 				20F958F81920A3B700C9AC7C /* NavigationTopNew.png in Resources */,
-				20218AEF198136F0001FB487 /* SASectionSignature_iPhone.nib in Resources */,
-				20218AEB198136F0001FB487 /* SASectionRadio_iPhone.nib in Resources */,
-				20218AF5198136F0001FB487 /* SASectionUnsupported_iPhone.nib in Resources */,
-				20218AC4198136F0001FB487 /* FBDialog.bundle in Resources */,
-				20218AF6198136F0001FB487 /* SASingleSurveyViewController.nib in Resources */,
-				20218AD6198136F0001FB487 /* SASectionCheckBoxes_iPhone.nib in Resources */,
-				20218AFC198136F0001FB487 /* SASurveyListViewController.nib in Resources */,
-				20218ADF198136F0001FB487 /* SASectionFreeformTextViewController_iPhone.nib in Resources */,
-				20218B03198136F0001FB487 /* Toolbar.nib in Resources */,
-				20218AE0198136F0001FB487 /* SASectionICChoice_iPhone.nib in Resources */,
-				20218ACA198136F0001FB487 /* SADisChoiceCell_iPh.nib in Resources */,
+				20BF33831994FA0E00E6EC42 /* SASectionSignature_iPhone.nib in Resources */,
+				20BF337F1994FA0E00E6EC42 /* SASectionRadio_iPhone.nib in Resources */,
+				20BF33891994FA0E00E6EC42 /* SASectionUnsupported_iPhone.nib in Resources */,
+				20BF33581994FA0E00E6EC42 /* FBDialog.bundle in Resources */,
+				20BF338A1994FA0E00E6EC42 /* SASingleSurveyViewController.nib in Resources */,
+				20BF336A1994FA0E00E6EC42 /* SASectionCheckBoxes_iPhone.nib in Resources */,
+				20BF33901994FA0E00E6EC42 /* SASurveyListViewController.nib in Resources */,
+				20BF33731994FA0E00E6EC42 /* SASectionFreeformTextViewController_iPhone.nib in Resources */,
+				20BF33971994FA0E00E6EC42 /* Toolbar.nib in Resources */,
+				20BF33741994FA0E00E6EC42 /* SASectionICChoice_iPhone.nib in Resources */,
+				20BF335E1994FA0E00E6EC42 /* SADisChoiceCell_iPh.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,10 +784,10 @@
 		20231FF318FE933C0060BF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: anish bhanwala (C2GJ8K7MKW)";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\\\"",
@@ -806,7 +806,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "857FA1F2-DD15-41B7-8ACD-9CD077C634C7";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
@@ -815,10 +815,10 @@
 		20231FF418FE933C0060BF2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: anish bhanwala (C2GJ8K7MKW)";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../foundation/SAFramework/SDKDemos/SDKDemoCode\\\"",
@@ -837,7 +837,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "857FA1F2-DD15-41B7-8ACD-9CD077C634C7";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};

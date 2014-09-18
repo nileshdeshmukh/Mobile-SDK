@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"] forBarMetrics:UIBarMetricsDefault];
 }
 #pragma mark TableView Methods
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

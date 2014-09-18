@@ -7,6 +7,7 @@
 //
 
 #import "SingleSurveyDisplay.h"
+#import <SAUICatalog/SASurveyListView.h>
 
 @interface SingleSurveyDisplay ()
 
@@ -48,16 +49,10 @@
 {
     // To set current controller for Root Observer of SDK callback events
     [self.singleSurveyView setRootViewController:self];
-    //    [self.singleSurveyView setStrPanelApiKey:@"929fdb1d-b877-4a72-b4a9-00480ec151b3"];
-    //    [self.singleSurveyView setStrPanelMemberID:@"2048923"];//1181631//2048923
-    //    [self.singleSurveyView setStrSurveyID:@"3145079"];//3117629    // To set custom background Image
-    [self.singleSurveyView setStrPanelApiKey:@"929fdb1d-b877-4a72-b4a9-00480ec151b3"];
+    [self.singleSurveyView setStrPanelApiKey:@"f927c3e6-2344-4f6c-84ac-ae3523d74065"];
     // To set Panel Nember - Replace with appropriate id
-    [self.singleSurveyView setStrPanelMemberID:@"2048923"];
-    [self.singleSurveyView setStrSurveyID:@"3145079"];
-//    [self.singleSurveyView setStrPanelApiKey:self.strPanelAPIKey];
-//    [self.singleSurveyView setStrPanelMemberID:self.strPanelMemberID];//1181631//2048923
-//    [self.singleSurveyView setStrSurveyID:self.strSurveyID];//3117629
+    [self.singleSurveyView setStrPanelMemberID:@"2103853"];
+    [self.singleSurveyView setStrSurveyID:@"3153964"];  //  3145079  3153659
     [self.singleSurveyView setImgBackground:[UIImage imageNamed:@"blackGradient"]];
     
     // To set custom background color
@@ -65,7 +60,7 @@
     
     
     // To set NavigationBar Text Color
-    self.singleSurveyView.navigationBarTextColor = [UIColor blackColor];
+    self.singleSurveyView.navigationBarTextColor = [UIColor whiteColor];
     
     // To set NavigationBar Title Font style
     self.singleSurveyView.NavigationBarTitleFont = [UIFont systemFontOfSize:12];
@@ -80,7 +75,7 @@
     
     
       // To set NavigationBar Text Color
-    self.singleSurveyView.navigationBarTextColor = [UIColor blackColor];
+    self.singleSurveyView.navigationBarTextColor = [UIColor whiteColor];
     
     // To set NavigationBar Title Font style
     self.singleSurveyView.NavigationBarTitleFont = [UIFont systemFontOfSize:12];
@@ -96,45 +91,27 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] > 6.1)
     {
         // To set navigationBar background
-        self.singleSurveyView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTopNew.png"];
-        
-        self.singleSurveyView.imgToolbarBackground=[UIImage imageNamed:@"NavigationTopNew.png"];
+//        self.singleSurveyView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTopNew.png"];
+//        
+//        self.singleSurveyView.imgToolbarBackground=[UIImage imageNamed:@"NavigationTopNew.png"];
 
         self.singleSurveyView.colorSectionBackButtonBackground=[UIColor clearColor];
         self.singleSurveyView.colorSectionScreenHomeButtonBackground=[UIColor clearColor];
-        self.singleSurveyView.colorSectionHomeButtonTitle=[UIColor blueColor];
-        self.singleSurveyView.colorSectionBackButtonTitle=[UIColor blueColor];
+        self.singleSurveyView.colorSectionHomeButtonTitle=[UIColor whiteColor];
+        self.singleSurveyView.colorSectionBackButtonTitle=[UIColor whiteColor];
         
         self.singleSurveyView.hasProgressView=YES;
         self.singleSurveyView.sectionScreenTrackTintColor = [UIColor grayColor];
         self.singleSurveyView.sectionScreenProgressTintColor = [UIColor blueColor];
-        
-        // To set NavigationBar tint color
-        // self.saView.navigationBarTintColor = [UIColor clearColor];
-
-        // self.saView.navigationBarTintColor = [UIColor clearColor];
-       // self.singleSurveyView.toolBarTintColor=[UIColor yellowColor];
-        self.singleSurveyView.hasSectionToolBar=YES;
-    }else{
-        self.singleSurveyView.hasSectionToolBar=YES;
-        // To set ProgressBar Tint and Track colors
-        // To set navigationBar background
-        self.singleSurveyView.imgNavigationBarBackground = [UIImage imageNamed:@"NavigationTop"];
-          self.singleSurveyView.imgToolbarBackground=[UIImage imageNamed:@"NavigationTopNew.png"];
-        // To set NavigationBar tint color
-        //   self.singleSurveyView.navigationBarTintColor = [UIColor blueColor];
-
-        
         self.singleSurveyView.hasProgressView=YES;
         self.singleSurveyView.sectionScreenTrackTintColor = [UIColor grayColor];
         self.singleSurveyView.sectionScreenProgressTintColor = [UIColor blueColor];
-      //  self.singleSurveyView.colorSectionBackButtonBackground=[UIColor redColor];
-      //  self.singleSurveyView.colorSectionScreenHomeButtonBackground=[UIColor redColor];
         self.singleSurveyView.colorSectionHomeButtonTitle=[UIColor whiteColor];
         self.singleSurveyView.colorSectionBackButtonTitle=[UIColor whiteColor];
     }
+ self.singleSurveyView.imgNavigationBarBackground = [UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"];
+    self.singleSurveyView.imgToolbarBackground=[UIImage imageNamed:@"SAUICatalog.bundle/iPhone/NavigationTop.png"];
 
-    
     // To set whether Start Survey screen has statistics shown (Total Questions/Complete/Incomplete)
     self.singleSurveyView.hasStartSurveyScreenStatistics = YES;
     
@@ -148,30 +125,44 @@
     self.singleSurveyView.startSurveyScreenSurveyTitleFrame = CGRectMake(5, 45, 310, 35);
     
     // To set Font of Survey Title in Start Survey screen
-    self.singleSurveyView.startSurveyScreenSurveyTitleFont = [UIFont fontWithName:@"Helvetica-Bold" size:13.0f];
+    self.singleSurveyView.startSurveyScreenSurveyTitleFont =[UIFont fontWithName:@"Helvetica-Light" size:12.0f];
     
     // To set TextColor of Survey Title in Start Survey screen
-    self.singleSurveyView.startSurveyScreenSurveyTitleTextColor = [UIColor whiteColor];
+    self.singleSurveyView.startSurveyScreenSurveyTitleTextColor = [UIColor blackColor];
     
     // To set whether Start Survey screen has toolbar or not
     self.singleSurveyView.hasStartSurveyScreenToolBar = NO;
     
     // To set Frame of Toolbar in Start Survey screen
-    self.singleSurveyView.startSurveyScreenToolBarFrame  = CGRectMake(0, 436, 320, 44);
+  //  self.singleSurveyView.startSurveyScreenToolBarFrame  = CGRectMake(0, 460, 320, 44);
     
     // To set Background of Bottom Toolbar in various sections
-    self.singleSurveyView.imgToolbarBackground = [UIImage imageNamed:@"footer-bar"];
-    
+   // self.singleSurveyView.imgToolbarBackground = [UIImage imageNamed:@"footer-bar"];
     // To set TextColor of Start Survey Button in Start Survey screen
-    self.singleSurveyView.startSurveyScreenStartButtonTextColor = [UIColor redColor];
+    self.singleSurveyView.startSurveyScreenStartButtonTextColor = [UIColor colorWithRed:(0/255.0) green:(89/255.0) blue:(131/255.0) alpha:1] ;
     
     // To set BackgroundColor of Start Survey Button in Start Survey screen
-    self.singleSurveyView.startSurveyScreenStartButtonBackgroundColor = [UIColor greenColor];
+    self.singleSurveyView.startSurveyScreenStartButtonBackgroundColor = [UIColor clearColor];
     
-    
+
+//    // To set TextColor of Start Survey Button in Start Survey screen
+//    self.singleSurveyView.startSurveyScreenStartButtonTextColor = [UIColor redColor];
+//    
+//    // To set BackgroundColor of Start Survey Button in Start Survey screen
+//    self.singleSurveyView.startSurveyScreenStartButtonBackgroundColor = [UIColor greenColor];
+//    
+//    
     // To set Frame of Start Survey Button in Start Survey screen
-    self.singleSurveyView.startSurveyScreenStartButtonFrame = CGRectMake(91, 360, 137, 45);
+  //  self.singleSurveyView.startSurveyScreenStartButtonFrame = CGRectMake(91, 360, 137, 45);
     
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >6.1) {
+        // To set Frame of Next Button in Question screen
+        self.singleSurveyView.startSurveyScreenStartButtonFrame = CGRectMake(91, 360, 137, 45);
+    }else{
+        self.singleSurveyView.startSurveyScreenStartButtonFrame = CGRectMake(91, 370, 137, 45);
+    }
+
     // To set Font of Start Survey Button in Start Survey screen
     self.singleSurveyView.startSurveyScreenStartButtonFont = [UIFont fontWithName:@"Helvetica-Bold" size:15.0f];
     
@@ -187,7 +178,7 @@
     //--------------------------Next Button in Question screen Design Start From Here--------------------------//
     
     // To set TextColor of Next Button in Question screen
-    self.singleSurveyView.sectionScreenNextButtonTextColor = [UIColor blueColor];
+    self.singleSurveyView.sectionScreenNextButtonTextColor = [UIColor colorWithRed:(0/255.0) green:(89/255.0) blue:(131/255.0) alpha:1] ;
     
     // To set BackgroundColor of Next Button in Question screen
       self.singleSurveyView.sectionScreenNextButtonBackgroundColor = [UIColor clearColor];
@@ -235,7 +226,7 @@
     
     // To set Single/Multi Select Question's Answer font & Color
     self.singleSurveyView.sectionScreenAnswerTextFont = [UIFont fontWithName:@"Gotham-Book" size:14];
-    self.singleSurveyView.sectionScreenAnswerTextColor = [UIColor brownColor];
+    self.singleSurveyView.sectionScreenAnswerTextColor = [UIColor blackColor];
     
     // To set Background for Back Button
   //  self.singleSurveyView.imgSectionBackButtonBackground = [UIImage imageNamed:@"back"];
@@ -244,7 +235,7 @@
     self.singleSurveyView.sectionQuestionTextFont = [UIFont fontWithName:@"Gotham-Book" size:17];
     
     // To set Question Text Color
-    self.singleSurveyView.sectionQuestionTextColor = [UIColor colorWithRed:(11/255.0) green:(149/255.0) blue:(255/255.0) alpha:1];
+    self.singleSurveyView.sectionQuestionTextColor = [UIColor blackColor];//[UIColor colorWithRed:(11/255.0) green:(149/255.0) blue:(255/255.0) alpha:1];
     
     // To set Frame of Question
     self.singleSurveyView.sectionQuestionViewFrame = CGRectMake(10, 15, 275, 25);
@@ -346,8 +337,9 @@
     self.singleSurveyView.sectionScreenPhotoVideoSubHeadingLine2Frame = CGRectMake(10, 69, 270, 35);
     
     
-    self.singleSurveyView.hasDateTimetableBorder=NO;
-    self.singleSurveyView.hasMultichoiceTableBorder=NO;
+    self.singleSurveyView.hasDateTimetableBorder=YES;
+    self.singleSurveyView.hasMultichoiceTableBorder=YES;
+    self.singleSurveyView.hasSingleChoiceTableBorder=YES;
     
     // To add Home Click event inside Survey
     [self.singleSurveyView setEventHomeClick:@selector(homeBtnClicked:)];
@@ -356,12 +348,8 @@
     [self.singleSurveyView setEventSurveyBackClick:@selector(surveyCompletionTriggered)];
     
     // To set Whether SDK exposes Start Survey Screen
-    self.singleSurveyView.hasStartSurveyScreen = NO;
-    //
-    //    // To set Whether SDK exposes Start Survey Screen
-    //    self.singleSurveyView.hasStartSurveyScreen = NO;
-    //
-    // To download and Start specific Survey
+    self.singleSurveyView.hasStartSurveyScreen = YES;
+       // To download and Start specific Survey
     [self.singleSurveyView loadAndStartSurvey];
     
 }
@@ -370,9 +358,10 @@
 -(void)surveyCompletionTriggered
 {
     NSLog(@"surveyCompletionTriggered");
-    [self.view.window.rootViewController dismissViewControllerAnimated:YES completion:nil];
+  
     //  [self dismissViewControllerAnimated:YES completion:nil];
-    //   [self.navigationController popViewControllerAnimated:YES];
+      [self.view.window.rootViewController dismissViewControllerAnimated:YES completion:nil];
+      // [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 #pragma mark Section Home Button Event Handler
@@ -380,8 +369,8 @@
 -(IBAction)homeBtnClicked:(id)sender
 {
     NSLog(@"Home Button Clicked");
-    [self.view.window.rootViewController dismissViewControllerAnimated:YES completion:nil];
-    // [self.navigationController popViewControllerAnimated:YES];
+   [self.view.window.rootViewController dismissViewControllerAnimated:YES completion:nil];
+     //[self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 

@@ -8,14 +8,13 @@ List of all surveys which is assigned to your panel member.
 <ol><li>Set API key of your account.</li>
 <li>Set panel member ID of your account.</li></ol>
 <p><b>Single Survey</b></p>
-<br>Get a specific survey which is assigned to your panel member.</br>
-  <ol><li>Set API key of your account.</li>
-  <li>Set panel member ID of your account.</li>
-  <li> Set specific survey ID which you want to answer.</li></ol>
-  
+Get a specific survey which is assigned to your panel member.
+<ol><li>Set API key of your account.</li>
+<li>Set panel member ID of your account.</li>
+<li>Set specific survey ID which you want to answer.</li></ol>
 <p><b>List of Supported Question type:<b></p>
-<p>Standard Question Section</p>
-<br><ol type="I"><li>Graphical Rating Question</br>
+Standard Question Section
+<ol type="I"><li>Graphical Rating Question
   <ol><li type="1">Star rating</li>
   <li type="1">Scale (Graphic)</li>
   <li type="1">Smiley (yes/no)</li>

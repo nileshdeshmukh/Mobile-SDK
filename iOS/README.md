@@ -52,7 +52,7 @@ SASurveyListView *_saView; }
 <li> Set the properties of created objects.
 <br>// To set current controller for Root Observer of SDK callback events</br><br>[self.saView setRootViewController:self];</br>
 <br>// To set Panel Nember ­ Replace with appropriate id [self.saView setStrPanelMemberID:@"2103853"];
-<br>// To set Survey ID ­ Replace with appropriate id </br><br>[self.saView setStrSurveyID:@"3153959"];</br>
+<br>// To set Survey ID ­ Replace with appropriate id </br><br>[self.saView setStrSurveyID:@"3153964"];</br>
 <br>// To set ApiKey ­ Replace with appropriate apiKey mapped to your panel</br><br> [self.saView setStrPanelApiKey:@"f927c3e6­2344­4f6c­84ac­ae3523d74065"];</br>
 <br>Survey Account Login</br>
 <br>user­ sdk@surveyanalytics.com</br><br> pass­ sdk_2014</br></li>

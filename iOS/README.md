@@ -1,2 +1,3 @@
-Version 1.0
-Please take a look on Installation Guide - https://github.com/surveyanalyticscorp/Mobile-SDK/blob/master/iOS/integrationGuide.pdf
+Version 1.1
+
+<p>"Documentation is available"<href a="https://github.com/surveyanalyticscorp/Mobile-SDK/blob/master/iOS/integrationGuide.pdf"> here</a>"."</p>

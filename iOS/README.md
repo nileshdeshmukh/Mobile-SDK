@@ -64,3 +64,11 @@ SASurveyListView *_saView; }
 <br>[self.saView loadAndStartSurvey]</br>
 <br>// To download and launch Survey list </br>
 <br>[self.saView loadSurveys];</br></li></ol>
+<p><b>Mandatory setup</b></p>
+Add below permissions in main application’s “viewController” file
+<ol><li>Define and create SASurveyListView object into your class</li>
+<li>To set current controller for Root Observer of SDK callback events in .m file<br>[self.saView setRootViewController:self];</br></li>
+<li>To set Panel Nember ­ Replace with appropriate id
+<br>[self.saView setStrPanelMemberID:@"2103853"];</br></li>
+<li> To set Panel API key ­ Replace with appropriate
+<br>[self.saView setStrPanelApiKey:@"f927c3e6­2344­4f6c­84ac­ae3523d74065"];</br></li></ol> 

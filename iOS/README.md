@@ -2,9 +2,6 @@ Survey SDK Version 1.1
 
 SurveyAnalytics iOS Survey SDK provides facilities to integrate our survey module in your existing iPhone application. It provides an easy way to add and configure survey module in your mobile application and collect the survey responses.
 
-<p>Documentation is available<a href="https://github.com/surveyanalyticscorp/Mobile-SDK/blob/master/iOS/integrationGuide.pdf"> here</a>"."</p>
-
-
 The SDK supports two modes or two use cases:List of Multiple surveys and Single Survey.
 <p><b>Multiple Surveys</b></p>
 List of all surveys which is assigned to your panel member.
@@ -72,3 +69,4 @@ Add below permissions in main application’s “viewController” file
 <br>[self.saView setStrPanelMemberID:@"2103853"];</br></li>
 <li> To set Panel API key ­ Replace with appropriate
 <br>[self.saView setStrPanelApiKey:@"f927c3e6­2344­4f6c­84ac­ae3523d74065"];</br></li></ol> 
+<p>Documentation is available<a href="https://github.com/surveyanalyticscorp/Mobile-SDK/blob/master/iOS/integrationGuide.pdf"> here</a>.</p>

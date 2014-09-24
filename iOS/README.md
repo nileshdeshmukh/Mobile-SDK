@@ -8,10 +8,75 @@ List of all surveys which is assigned to your panel member.
 <ol><li>Set API key of your account.</li>
 <li>Set panel member ID of your account.</li></ol>
 <p><b>Single Survey</b></p>
-Get a specific survey which is assigned to your panel member.
-<ol><li>Set API key of your account.</li>
-<li>Set panel member ID of your account.</li>
-<li> Set specific survey ID which you want to answer.</li></ol>
+<br>Get a specific survey which is assigned to your panel member.</br>
+  <ol><li>Set API key of your account.</li>
+  <li>Set panel member ID of your account.</li>
+  <li> Set specific survey ID which you want to answer.</li></ol>
+  
+<p><b>List of Supported Question type:<b></p>
+<p>Standard Question Section</p>
+<br><ol type="I"><li>Graphical Rating Question</br>
+  <ol><li type="1">Star rating</li>
+  <li type="1">Scale (Graphic)</li>
+  <li type="1">Smiley (yes/no)</li>
+  <li type="1">Smiley image(Rating )</li></ol></li>
+<li>Open end Text Question
+<ol><li type="1">Comment Box</li>
+<li type="1">Single Row Text</li>
+<li type="1">Numeric (Freeform) input</li>
+<li type="1">Email Address</li></ol></li>
+<li> Multiple choice Question
+<ol><li type="1">Single Selection Option </li>
+<li type="1">Multiple Selection Option</li>
+<li type="1">DropDown </li>
+<li type="1">Multiple Image Selection Option</li>
+<li type="1">Single Image Selection Option</li>
+<li type="1">Image Rating</li>
+</ol>
+</li>
+<li>Customer Satisfaction
+<ol><li type="1">Net Promoter Score</li>
+</ol>
+</li>
+<li>Misc
+<ol><li type="1">Rank Order</li>
+<li type="1">Date / Time</li>
+</li>
+<li>Matrix Table
+<ol><li type="1">Multiple Point Scale</li>
+<li type="1">CheckBox  Multiple Point Scale</li>
+<li type="1">SpreadSheet</li>
+</ol>
+</li>
+<li>Presentation/Heading 
+<ol><li type="1">Presentation Text</li>
+<li type="1">Section Heading</li>
+<li type="1">Section Sub Heading</li>
+</ol>
+</li>
+</ol>
+<p>Advanced Question Types</p>
+<ol type="I"><li>Data / Reference
+<ol><li type="1">Dynamic Lookup Table</li>
+</ol>
+</li>
+<li>Conjoint Models
+<ol><li type="1">Conjoint (Max-Diff)</li>
+</ol>
+</li>
+<li>Mobile
+. Stop Watch
+ Bar Code
+ </li>
+ <li>
+ Upload
+ <br>
+Attach/Upload File (Hand Drawing/Photo/Audio/Video)</br>
+ </li></ol>
+ 
+
+ 
+
 <p><b>Requirements:</b></p>
 <ul><li>Xcode 5 and iOS SDK 7</li>
 <li>iOS 6.0+ target deployment</li>

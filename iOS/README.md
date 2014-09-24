@@ -64,8 +64,9 @@ Standard Question Section
 </ol>
 </li>
 <li>Mobile
-. Stop Watch
- Bar Code
+<ol><li type="1">Stop Watch</li>
+<li type="1"> Bar Code</li>
+</ol>
  </li>
  <li>
  Upload

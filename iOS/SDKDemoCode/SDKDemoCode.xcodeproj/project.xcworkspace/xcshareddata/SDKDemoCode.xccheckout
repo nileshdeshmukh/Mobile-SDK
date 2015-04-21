@@ -10,29 +10,29 @@
 	<string>SDKDemoCode</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</key>
+		<key>BEE784989BEA4188CA5C85C4DE3666260A0D991E</key>
 		<string>https://github.com/surveyanalyticscorp/Mobile-SDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/SDKDemoCode/SDKDemoCode.xcodeproj/project.xcworkspace</string>
+	<string>iOS/SDKDemoCode/SDKDemoCode.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</key>
+		<key>BEE784989BEA4188CA5C85C4DE3666260A0D991E</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/surveyanalyticscorp/Mobile-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</string>
+	<string>BEE784989BEA4188CA5C85C4DE3666260A0D991E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EAF1BBA3-66B8-401B-A8EB-1FC7ED1D151F</string>
+			<string>BEE784989BEA4188CA5C85C4DE3666260A0D991E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mobile-SDK</string>
 		</dict>
